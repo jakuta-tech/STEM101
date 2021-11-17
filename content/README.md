@@ -1,1 +1,1 @@
-# STEM 101
+# STEM material

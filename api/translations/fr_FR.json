@@ -2594,6 +2594,9 @@
       "settings\u0004Defines if the placeholder cells should be rendered when the browser is idle": [
         "D\u00e9finit si les cellules de l'espace r\u00e9serv\u00e9 doivent \u00eatre affich\u00e9es lorsque le navigateur est inactif"
       ],
+      "settings\u0004Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message.": [
+        "D\u00e9finit le nombre maximum de r\u00e9sultats \u00e0 afficher par cellules. La zone de sortie affichera les premiers r\u00e9sultats uniquement \u00e0 moins que l'utilisateur ne clique sur le message d'information."
+      ],
       "settings\u0004Defines the maximum number of output cells to to to be rendered in the output area for cells with many outputs. The output area will have a head and a tail, and the outputs between will be trimmed and not displayed unless the user clicks on the information message.": [
         "D\u00e9finit le nombre maximum de cellules \u00e0 afficher dans la zone de sortie pour les cellules avec de nombreuses sorties. La zone de sortie aura une t\u00eate et une queue, et les sorties entre les deux seront coup\u00e9es et ne seront pas affich\u00e9es \u00e0 moins que l'utilisateur ne clique sur le message d'information."
       ],
@@ -2668,6 +2671,9 @@
       ],
       "settings\u0004Font size": [
         "Taille des caract\u00e8res"
+      ],
+      "settings\u0004Global setting to enable side-by-side rendering in notebooks": [
+        "R\u00e9glage global pour activer le rendu c\u00f4te \u00e0 c\u00f4te des notebooks"
       ],
       "settings\u0004Half-period in milliseconds used for cursor blinking. The default blink rate is 530ms. By setting this to zero, blinking can be disabled. A negative value hides the cursor entirely.": [
         "Demi-p\u00e9riode en millisecondes utilis\u00e9e pour clignoter le curseur. Le taux de clignotement par d\u00e9faut est de 530ms. En d\u00e9finissant cette valeur \u00e0 z\u00e9ro, le clignotement peut \u00eatre d\u00e9sactiv\u00e9. Une valeur n\u00e9gative masque compl\u00e8tement le curseur."
@@ -2864,6 +2870,9 @@
       "settings\u0004Shut down the session when closing the terminal.": [
         "Arr\u00eater la session lors de la fermeture du terminal."
       ],
+      "settings\u0004Side-by-side rendering": [
+        "Rendu c\u00f4te \u00e0 c\u00f4te"
+      ],
       "settings\u0004Sidebar": [
         "Barre lat\u00e9rale"
       ],
@@ -2947,6 +2956,9 @@
       ],
       "settings\u0004The list of keyboard shortcuts.": [
         "Liste des raccourcis clavier."
+      ],
+      "settings\u0004The maximum number of output cells to be rendered in the output area. Set to 0 to have the complete display.": [
+        "Le nombre maximum de r\u00e9sultats d'une cellule \u00e0 afficher. Une valeur de 0 affichera l'ensemble des r\u00e9sultats."
       ],
       "settings\u0004The maximum number of output cells to to be rendered in the output area. Set to 0 to have the complete display.": [
         "Le nombre maximum de cellules de sortie \u00e0 afficher dans la zone de sortie. Mettre \u00e0 0 pour avoir l'affichage complet."
@@ -3163,8 +3175,14 @@
       "Are you sure you want to permanently discard changes to all files? This action cannot be undone.": [
         "\u00cates-vous s\u00fbr de vouloir annuler d\u00e9finitivement les modifications apport\u00e9es \u00e0 tous les fichiers ? Cette action ne peut pas \u00eatre annul\u00e9e."
       ],
+      "Are you sure you want to permanently discard changes to all unstaged files? This action cannot be undone.": [
+        "\u00cates-vous s\u00fbr de vouloir annuler d\u00e9finitivement les modifications apport\u00e9es \u00e0 tous les fichiers modifi\u00e9s? Cette action ne peut pas \u00eatre annul\u00e9e."
+      ],
       "Are you sure you want to permanently discard changes to the following files?               This action cannot be undone.": [
         "\u00cates-vous s\u00fbr de vouloir supprimer d\u00e9finitivement les modifications aux fichiers suivants? Cette action ne peut pas \u00eatre annul\u00e9e."
+      ],
+      "Branch '%1' merged into '%2'.": [
+        "Branche '%1' fusionn\u00e9e dans '%2'."
       ],
       "Branch created.": [
         "Branche cr\u00e9\u00e9e."
@@ -3199,6 +3217,9 @@
       "Clear the current filter": [
         "Effacer le filtre actuel"
       ],
+      "Clone": [
+        "Cloner"
+      ],
       "Clone a Repository": [
         "Cloner un d\u00e9p\u00f4t"
       ],
@@ -3211,11 +3232,17 @@
       "Cloning...": [
         "Clonage en cours..."
       ],
+      "Cloning\u2026": [
+        "Clonage en cours\u2026"
+      ],
       "Close this dialog": [
         "Quitter cette fen\u00eatre de dialogue"
       ],
       "Close this dialog without creating a new branch": [
         "Fermer cette bo\u00eete de dialogue sans cr\u00e9er de nouvelle branche"
+      ],
+      "Close this dialog without merging a branch": [
+        "Fermer cette bo\u00eete de dialogue sans fusionner une branche"
       ],
       "Commit": [
         "Commit"
@@ -3232,8 +3259,14 @@
       "Committing changes...": [
         "Validation des modifications..."
       ],
+      "Common Ancestor": [
+        "Anc\u00eatre commun"
+      ],
       "Conflicted": [
         "Avec conflits"
+      ],
+      "Continue Without Pulling": [
+        "Continuer sans tirer les changements"
       ],
       "Create Branch": [
         "Cr\u00e9er une branche"
@@ -3256,11 +3289,20 @@
       "Create branch based on...": [
         "Cr\u00e9er une branche bas\u00e9e sur..."
       ],
+      "Create branch based on\u2026": [
+        "Cr\u00e9er une branche bas\u00e9e sur\u2026"
+      ],
       "Creating a new branch is disabled": [
         "La cr\u00e9ation d'une nouvelle branche est d\u00e9sactiv\u00e9e"
       ],
       "Creating branch...": [
         "Cr\u00e9ation de la branche..."
+      ],
+      "Creating branch\u2026": [
+        "Cr\u00e9ation de la branche\u2026"
+      ],
+      "Current": [
+        "Actuel"
       ],
       "Current Branch": [
         "Branche actuelle"
@@ -3340,6 +3382,9 @@
       "Discard all changes failed.": [
         "\u00c9chec de la suppression de toutes les modifications."
       ],
+      "Discard all current changes and pull from remote repository": [
+        "Ignorer toutes les modifications en cours et tirer l'\u00e9tat du d\u00e9p\u00f4t distant"
+      ],
       "Discard all unstaged changes failed.": [
         "\u00c9chec de la suppression de toutes les modifications non planifi\u00e9es."
       ],
@@ -3363,6 +3408,9 @@
       ],
       "Discarding changes...": [
         "Ignorer les modifications..."
+      ],
+      "Discarding changes\u2026": [
+        "Ignorer les modifications\u2026"
       ],
       "Dismiss": [
         "Rejeter"
@@ -3451,6 +3499,9 @@
       "Failed to load the jupyterlab-git server extension settings": [
         "Impossible de charger les param\u00e8tres d'extension serveur jupyterlab-git"
       ],
+      "Failed to merge branch '%1' into '%2'.": [
+        "\u00c9chec de la fusion de la branche '%1' dans '%2'."
+      ],
       "Failed to pull": [
         "Tirage a \u00e9chou\u00e9"
       ],
@@ -3475,6 +3526,9 @@
       "Filter": [
         "Filtre"
       ],
+      "Filter branch list": [
+        "Filtrer les branches"
+      ],
       "Filter branch menu": [
         "Menu de filtrage de branche"
       ],
@@ -3483,6 +3537,9 @@
       ],
       "Git Interface": [
         "Interface Git"
+      ],
+      "Git Pull from Remote Branch": [
+        "Tirer depuis la branche distante"
       ],
       "Git credentials required": [
         "Informations d'identification Git requises"
@@ -3528,6 +3585,9 @@
       "Ignore this file extension (add to .gitignore)": [
         "Ignorer cette extension de fichier (ajouter \u00e0 .gitignore)"
       ],
+      "Incoming": [
+        "Arrivant"
+      ],
       "Incorrect username or password.": [
         "Nom d'utilisateur ou mot de passe incorrect."
       ],
@@ -3537,6 +3597,9 @@
       "Initializing...": [
         "Initialisation..."
       ],
+      "Initializing\u2026": [
+        "Initialisation\u2026"
+      ],
       "Manage branches and tags": [
         "G\u00e9rer les branches et les tags"
       ],
@@ -3545,6 +3608,27 @@
       ],
       "Mark file as resolved": [
         "Marquer le fichier comme r\u00e9solu"
+      ],
+      "Merge": [
+        "Fusionner"
+      ],
+      "Merge Branch": [
+        "Fusionner la branche"
+      ],
+      "Merge Branch\u2026": [
+        "Fusionner la branche\u2026"
+      ],
+      "Merge branch": [
+        "Fusionner la branche"
+      ],
+      "Merge selected branch in the current branch": [
+        "Fusionner la branche s\u00e9lectionn\u00e9e dans la branche actuelle"
+      ],
+      "Merge this branch into the current one": [
+        "Fusionner cette branche dans la branche actuelle"
+      ],
+      "Merging branch '%1'\u2026": [
+        "Fusion de la branche '%1'\u2026"
       ],
       "Name": [
         "Nom"
@@ -3566,6 +3650,9 @@
       ],
       "Not in a Git repository. Unable to add a remote.": [
         "Pas dans un d\u00e9p\u00f4t Git. Impossible d'ajouter un d\u00e9p\u00f4t distant."
+      ],
+      "One or more open files are behind %1 head. Do you want to pull the latest remote version?": [
+        "Un ou plusieurs fichiers ouverts sont derri\u00e8re la t\u00eate de %1 . Voulez-vous r\u00e9cup\u00e9rer la derni\u00e8re version distante ?"
       ],
       "Open": [
         "Ouvrir"
@@ -3603,8 +3690,17 @@
       "Publish branch": [
         "Publier la branche"
       ],
+      "Pull": [
+        "Tirer"
+      ],
       "Pull from Remote": [
         "Tirer Depuis un D\u00e9p\u00f4t Distant"
+      ],
+      "Pull from Remote (Force)": [
+        "Tirer depuis le r\u00e9pertoire distant (Force)"
+      ],
+      "Pull from remote branch": [
+        "Tirer depuis le r\u00e9pertoire distant"
       ],
       "Pull latest changes": [
         "Envoyer les derni\u00e8res modifications"
@@ -3614,6 +3710,9 @@
       ],
       "Pulling...": [
         "Tirage en cours..."
+      ],
+      "Pulling\u2026": [
+        "Tirage en cours\u2026"
       ],
       "Push code to remote repository": [
         "Pousser le code vers le d\u00e9p\u00f4t distant"
@@ -3630,6 +3729,9 @@
       "Pushing...": [
         "Poussage en cours..."
       ],
+      "Pushing\u2026": [
+        "Poussage en cours\u2026"
+      ],
       "RESULT": [
         "R\u00e9sultat final"
       ],
@@ -3645,6 +3747,12 @@
       "Refreshing...": [
         "Actualisation en cours..."
       ],
+      "Refreshing\u2026": [
+        "Actualisation en cours\u2026"
+      ],
+      "Remote Changes": [
+        "Modifications distantes"
+      ],
       "Remote Git repository URL": [
         "URL du d\u00e9p\u00f4t Git distant"
       ],
@@ -3653,6 +3761,9 @@
       ],
       "Resolve with conflicts": [
         "R\u00e9soudre malgr\u00e9 les conflits"
+      ],
+      "Result": [
+        "R\u00e9sultat"
       ],
       "Revert '%1'": [
         "Revenir \u00e0 '%1'"
@@ -3666,11 +3777,20 @@
       "Reverting changes...": [
         "Annuler les modifications..."
       ],
+      "Reverting changes\u2026": [
+        "Annuler les modifications\u2026"
+      ],
       "SHOW": [
         "Afficher"
       ],
+      "Select the branch to merge in %1": [
+        "S\u00e9lectionnez la branche \u00e0 fusionner dans %1"
+      ],
       "Set Up Remotes": [
         "Mise en place d'un d\u00e9p\u00f4t distant"
+      ],
+      "Show": [
+        "Afficher"
       ],
       "Show Diff": [
         "Afficher les diff\u00e9rences"
@@ -3758,6 +3878,9 @@
       ],
       "The default branch. Pick this if you want to start fresh from the default branch.": [
         "La branche par d\u00e9faut. Choisissez ceci si vous voulez d\u00e9marrer \u00e0 partir de la branche par d\u00e9faut."
+      ],
+      "The following open files remain behind:": [
+        "Les fichiers ouverts suivants ne sont pas \u00e0 jour :"
       ],
       "The versions of the JupyterLab Git server frontend and backend do not match. The @jupyterlab/git frontend extension has version: %1 while the python package has version %2. Please install identical version of jupyterlab-git Python package and the @jupyterlab/git extension. Try running: pip install --upgrade jupyterlab-git": [
         "Les versions du frontend et du backend du serveur JupyterLab Git ne correspondent pas. L'extension frontend @jupyterlab/git contient la version: %1 tandis que le paquetage Python contient la version %2. Veuillez installer une version identique du paquetage Python jupyterlab-git et l'extension@jupyterlab/git. Essayez d'ex\u00e9cuter: pip install --upgrade jupyterlab-git"
@@ -3849,6 +3972,9 @@
       "Your changes to the following files would be overwritten by switching:": [
         "Vos modifications apport\u00e9es aux fichiers suivants seraient \u00e9cras\u00e9es:"
       ],
+      "Your current changes forbid pulling the latest changes. Do you want to permanently discard those changes? This action cannot be undone.": [
+        "Vos modifications actuelles interdisent d'extraire les derni\u00e8res modifications. Voulez-vous supprimer d\u00e9finitivement ces modifications ? Cette action ne peut pas \u00eatre annul\u00e9e."
+      ],
       "git command not found - please ensure you have Git > 2 installed": [
         "commande git est introuvable - veuillez vous assurer que Git > 2 est install\u00e9"
       ],
@@ -3897,6 +4023,9 @@
       "settings\u0004History count": [
         "Nombre d'\u00e9l\u00e9ments de l'historique"
       ],
+      "settings\u0004If true, a popup dialog will be displayed if a user opens a file that is behind its remote branch version, or if an opened file has updates on the remote branch.": [
+        "Si true, une bo\u00eete de dialogue s'affichera si un utilisateur ouvre un fichier qui se trouve derri\u00e8re sa version de la branche distante, ou si un fichier ouvert a des mises \u00e0 jour sur la branche distante."
+      ],
       "settings\u0004If true, double clicking a file in the list of changed files will open a diff.": [
         "Si vrai, un double clic sur un fichier dans la liste des fichiers modifi\u00e9s ouvrira un diff."
       ],
@@ -3914,6 +4043,9 @@
       ],
       "settings\u0004Number of milliseconds between polling the file system for changes.": [
         "Nombre de millisecondes entre les sondages du syst\u00e8me de fichiers pour les modifications."
+      ],
+      "settings\u0004Open files behind warning": [
+        "Avertir lors de l'ouverture de fichiers en retard sur la r\u00e9f\u00e9rence"
       ],
       "settings\u0004Refresh if the Git tab is hidden": [
         "Actualiser si l'onglet Git est cach\u00e9"
@@ -3965,6 +4097,9 @@
       "%2/%3 virtual document connected (%4 connections; waiting for: %5)": [
         "%2/%3 document virtuel connect\u00e9 (%4 connexions ; en attente : %5)"
       ],
+      "Available": [
+        "Disponible"
+      ],
       "Cancel": [
         "Annuler"
       ],
@@ -3985,6 +4120,9 @@
       ],
       "Display the completer themes": [
         "Afficher les th\u00e8mes completer"
+      ],
+      "Documentation:": [
+        "Documentation :"
       ],
       "Error": [
         "Erreur"
@@ -4054,8 +4192,14 @@
       "LSP server extension not found": [
         "Extension de serveur LSP introuvable"
       ],
+      "LSP servers": [
+        "Serveurs LSP"
+      ],
       "LSP status": [
         "Statut LSP"
+      ],
+      "Language Servers": [
+        "Serveurs de langage"
       ],
       "Licence: ": [
         "Licence : "
@@ -4068,6 +4212,9 @@
       ],
       "Message from ": [
         "Message de "
+      ],
+      "Missing": [
+        "Manquant"
       ],
       "No installation instructions were provided with this specification.": [
         "Aucune instruction d'installation n'a \u00e9t\u00e9 fournie avec cette sp\u00e9cification."
@@ -4114,6 +4261,9 @@
       ],
       "Renaming %1 to %2...": [
         "Renommage de %1 vers %2..."
+      ],
+      "Running": [
+        "Actifs"
       ],
       "Severity": [
         "Gravit\u00e9"
@@ -4189,6 +4339,16 @@
       "path to nodejs executable": [
         "chemin vers l'ex\u00e9cutable de nodejs"
       ],
+      "pluralized\u0004%2/%3 virtual document connected (%4 connections; waiting for: %5)": [
+        "%2/%3 virtual documents connected (%4 connections; waiting for: %5)",
+        "%2/%3 document virtuel connect\u00e9 (%4 connexions ; en attente de : %5)",
+        "%2/%3 documents virtuels connect\u00e9s (%4 connexions ; en attente de : %5)"
+      ],
+      "pluralized\u0004Fully connected, but %2/%3 virtual document stuck uninitialized: %4": [
+        "Fully connected, but %2/%3 virtual documents stuck uninitialized: %4",
+        "Compl\u00e8tement connect\u00e9, mais %2 document virtuel sur %3 n'a pas \u00e9t\u00e9 initialis\u00e9 : %4",
+        "Compl\u00e8tement connect\u00e9, mais %2 documents virtuels sur %3 n'ont pas \u00e9t\u00e9 initialis\u00e9s : %4"
+      ],
       "schema\u0004Code Completion": [
         "Compl\u00e9tion du code"
       ],
@@ -4217,7 +4377,7 @@
         "Param\u00e8tres d'aide pour la signature de code LSP."
       ],
       "schema\u0004LSP Completion settings.": [
-        "Param\u00e8tres d'ach\u00e8vement de LSP."
+        "Param\u00e8tres de compl\u00e9tion par LSP."
       ],
       "schema\u0004LSP Diagnostics (linter results) settings.": [
         "Param\u00e8tres de diagnostics LSP (r\u00e9sultats de linter)."
@@ -4264,8 +4424,11 @@
       "settings\u0004Codes of diagnostics which should not be shown in the panel nor highlighted in the editor.": [
         "Codes de diagnostics qui ne devraient pas \u00eatre affich\u00e9s dans le panneau ni mis en \u00e9vidence dans l'\u00e9diteur."
       ],
+      "settings\u0004Completer layout": [
+        "Disposition du compl\u00e9teur"
+      ],
       "settings\u0004Completer theme": [
-        "Th\u00e8me completer"
+        "Th\u00e8me du compl\u00e9teur"
       ],
       "settings\u0004Configuration to be sent to language server over LSP when initialized: see the specific language server's documentation for more": [
         "Configuration \u00e0 envoyer au serveur de langue par LSP lors de l'initialisation : voir la documentation du serveur de language sp\u00e9cifique pour plus de d\u00e9tails"
@@ -4323,6 +4486,9 @@
       ],
       "settings\u0004Language-server specific configuration, keyed by implementation, e.g: \n\npyls: {\n  serverSettings: {\n    pyls: {\n      plugins: {\n        pydocstyle: {\n          enabled: true\n        },\n        pyflakes: {\n          enabled: false\n        },\n        flake8: {\n          enabled: true\n        }\n      }\n    }\n  }\n}\n\nAlternatively, using VSCode's naming convention:\n\npyls: {\n  serverSettings: {\n    \"pyls.plugins.pydocstyle.enabled\": true,\n    \"pyls.plugins.pyflakes.enabled\": false,\n    \"pyls.plugins.flake8.enabled\": true\n  }\n}": [
         "Configuration sp\u00e9cifique du serveur de language, trie par l'impl\u00e9mentation, par exemple: \n\npyls: {\n  serverSettings: {\n    pyls: {\n      plugins: {\n        pydocstyle: {\n          enabled: true\n        },\n        flocons : {\n          enabled: false\n        },\n        flake8 : {\n          enabled: true\n        }\n      }\n    }\n  }\n}\n\nAlternativement, en utilisant la convention de nommage de VSCode:\n\npyls: {\n  serverSettings: {\n    \"pyls. lugins.pydocstyle.enabled\": true,\n    \"pyls.plugins.pyflakes.enabled\": false,\n    \"pyls.plugins.flake8.enabled\": true\n  }\n}"
+      ],
+      "settings\u0004Layout of the completer, one of: 'detail-below', 'side-by-side'": [
+        "Mise en page du compl\u00e9teur, un de : 'detail-below' (d\u00e9tails en dessous), 'side-by-side' (c\u00f4te-\u00e0-c\u00f4te)"
       ],
       "settings\u0004Log all LSP communication with the LSP servers": [
         "Enregistre toutes les communications LSP avec les serveurs LSP"
@@ -4618,6 +4784,74 @@
         "Enregistrer l'\u00e9tat des widget Jupyter dans les notebooks"
       ]
     },
+    "jupytext": {
+      "": {
+        "domain": "jupytext",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);",
+        "version": "jupyterlab"
+      },
+      "Custom pairing": [
+        "Association personnalis\u00e9e"
+      ],
+      "Error": [
+        "Erreur"
+      ],
+      "Include Metadata": [
+        "Inclure les m\u00e9tadonn\u00e9es"
+      ],
+      "Jupytext FAQ": [
+        "FAQ Jupytext"
+      ],
+      "Jupytext Reference": [
+        "R\u00e9f\u00e9rence Jupytext"
+      ],
+      "Markdown File": [
+        "Fichier Markdown"
+      ],
+      "MyST Markdown Notebook": [
+        "Notebook MyST Markdown"
+      ],
+      "Pair Notebook with Hydrogen Script": [
+        "Associer le notebook \u00e0 un script Hydrogen"
+      ],
+      "Pair Notebook with Markdown": [
+        "Associer le notebook \u00e0 un fichier Markdown"
+      ],
+      "Pair Notebook with MyST Markdown": [
+        "Associer le notebook \u00e0 un fichier MyST Markdown"
+      ],
+      "Pair Notebook with Quarto (qmd)": [
+        "Associer le notebook \u00e0 un fichier Quarto (qmd)"
+      ],
+      "Pair Notebook with R Markdown": [
+        "Associer le notebook \u00e0 un fichier R Markdown"
+      ],
+      "Pair Notebook with ipynb document": [
+        "Associer le notebook \u00e0 un document ipynb"
+      ],
+      "Pair Notebook with light Script": [
+        "Associer le notebook \u00e0 un script light"
+      ],
+      "Pair Notebook with nomarker Script": [
+        "Associer le notebook \u00e0 un script sans marqueur"
+      ],
+      "Pair Notebook with percent Script": [
+        "Associer le notebook \u00e0 un script avec %"
+      ],
+      "Please edit the notebook metadata directly if you wish a custom configuration.": [
+        "Veuillez modifier les m\u00e9tadonn\u00e9es du notebook directement si vous souhaitez une configuration personnalis\u00e9e."
+      ],
+      "Quarto Notebook": [
+        "Notebook Quarto"
+      ],
+      "R Markdown Notebook": [
+        "Notebook R Markdown"
+      ],
+      "Unpair Notebook": [
+        "Dissocier le notebook"
+      ]
+    },
     "retrolab": {
       "": {
         "domain": "retrolab",
@@ -4687,6 +4921,21 @@
       ],
       "Version: %1": [
         "Version : %1"
+      ],
+      "schema\u0004RetroLab Top Area": [
+        "Barre sup\u00e9rieure de RetroLab"
+      ],
+      "schema\u0004RetroLab Top Area settings": [
+        "Param\u00e8tres de la barre sup\u00e9rieure de RetroLab"
+      ],
+      "settings\u0004RetroLab Top Area": [
+        "Zone sup\u00e9rieure de RetroLab"
+      ],
+      "settings\u0004Top Bar Visibility": [
+        "Visibilit\u00e9 de la barre sup\u00e9rieure"
+      ],
+      "settings\u0004Whether to show the top bar or not": [
+        "Afficher/Masquer la zone sup\u00e9rieure"
       ]
     },
     "spellchecker": {

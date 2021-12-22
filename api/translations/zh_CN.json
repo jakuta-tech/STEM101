@@ -40,10 +40,10 @@
         "\u4e0b\u8f7d\u4e3a"
       ],
       "Download Current Folder As": [
-        "\u4e0b\u8f7d\u5f53\u524d\u6587\u4ef6\u5939\u4e3a"
+        "\u4e0b\u8f7d\u6240\u5728\u6587\u4ef6\u5939\u4e3a"
       ],
       "Download Current Folder as an Archive": [
-        "\u5c06\u5f53\u524d\u6587\u4ef6\u5939\u4f5c\u4e3a\u538b\u7f29\u5305\u4e0b\u8f7d"
+        "\u6253\u5305\u4e0b\u8f7d\u6240\u5728\u6587\u4ef6\u5939"
       ],
       "Download as an Archive": [
         "\u6253\u5305\u4e0b\u8f7d"
@@ -341,7 +341,7 @@
         "\u66f4\u6539\u6587\u672c\u7f16\u8f91\u5668\u8bed\u6cd5\u9ad8\u4eae\u663e\u793a"
       ],
       "Change to Code Cell Type": [
-        "\u66f4\u6539\u4e3a\u4ee3\u7801\u5757\u7c7b\u578b"
+        "\u66f4\u6539\u4e3a\u4ee3\u7801\u5355\u5143\u683c\u7c7b\u578b"
       ],
       "Change to Heading 1": [
         "\u66f4\u6539\u4e3a\u6807\u9898 1"
@@ -482,7 +482,7 @@
         "\u63a7\u5236\u53f0 %1"
       ],
       "Context menu customization has changed. You will need to reload JupyterLab to see the changes.": [
-        "\u4e0a\u4e0b\u6587\u83dc\u5355\u81ea\u5b9a\u4e49\u5df2\u66f4\u6539\u3002\u60a8\u9700\u8981\u91cd\u65b0\u8f7d\u5165 JupyterLab \u6765\u67e5\u770b\u6539\u52a8\u3002"
+        "\u4e0a\u4e0b\u6587\u83dc\u5355\u81ea\u5b9a\u4e49\u5df2\u66f4\u6539\u3002\u60a8\u9700\u8981\u91cd\u65b0\u52a0\u8f7d JupyterLab \u6765\u67e5\u770b\u6539\u52a8\u3002"
       ],
       "Continue": [
         "\u7ee7\u7eed"
@@ -968,10 +968,10 @@
         "JupyterLab \u4eae\u8272"
       ],
       "JupyterLab Reference": [
-        "Jupyter \u53c2\u8003\u6587\u6863"
+        "JupyterLab \u53c2\u8003\u6587\u6863"
       ],
       "JupyterLab build is suggested:": [
-        "\u5efa\u8bae\u91cd\u65b0\u6784\u5efa Jupyterlab\uff1a"
+        "\u5efa\u8bae\u91cd\u65b0\u6784\u5efa JupyterLab\uff1a"
       ],
       "JupyterLab workspace File": [
         "JupyterLab \u5de5\u4f5c\u533a\u6587\u4ef6"
@@ -995,7 +995,7 @@
         "\u5185\u6838\u64cd\u4f5c"
       ],
       "Kernel Restarting": [
-        "\u5185\u6838\u91cd\u542f\u4e2d"
+        "\u6b63\u5728\u91cd\u542f\u5185\u6838"
       ],
       "Kernel Terminating": [
         "\u6b63\u5728\u7ec8\u6b62\u5185\u6838"
@@ -1091,7 +1091,7 @@
         "\u9ad8\u4eae\u663e\u793a\u62ec\u53f7\u5bf9"
       ],
       "Menu customization has changed. You will need to reload JupyterLab to see the changes.": [
-        "\u83dc\u5355\u81ea\u5b9a\u4e49\u5df2\u66f4\u6539\u3002\u60a8\u9700\u8981\u91cd\u65b0\u8f7d\u5165 JupyterLab \u6765\u67e5\u770b\u6539\u52a8\u3002"
+        "\u83dc\u5355\u81ea\u5b9a\u4e49\u5df2\u66f4\u6539\u3002\u60a8\u9700\u8981\u91cd\u65b0\u52a0\u8f7d JupyterLab \u6765\u67e5\u770b\u6539\u52a8\u3002"
       ],
       "Merge Cell Above": [
         "\u5408\u5e76\u4e0a\u65b9\u5355\u5143\u683c"
@@ -1499,7 +1499,7 @@
         "\u5728\u7b14\u8bb0\u672c\u5355\u5143\u683c\u4e2d\u66ff\u6362\u9009\u62e9"
       ],
       "Request that the Hub restart this server": [
-        "\u8bf7\u6c42Hub\u91cd\u542f\u6b64\u670d\u52a1\u5668"
+        "\u8bf7\u6c42 Hub \u91cd\u542f\u6b64\u670d\u52a1\u5668"
       ],
       "Rerender HTML Document": [
         "\u6e32\u67d3 HTML \u6587\u6863"
@@ -1514,28 +1514,28 @@
         "\u91cd\u65b0\u542f\u52a8"
       ],
       "Restart Kernel and Clear All Outputs\u2026": [
-        "\u91cd\u542f\u670d\u52a1\u5e76\u6e05\u9664\u6240\u6709\u8f93\u51fa\u2026"
+        "\u91cd\u542f\u5e76\u6e05\u9664\u6240\u6709\u8f93\u51fa\u2026"
       ],
       "Restart Kernel and Clear Console": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\u5e76\u6e05\u7a7a\u63a7\u5236\u53f0"
+        "\u91cd\u542f\u5185\u6838\u5e76\u6e05\u7a7a\u63a7\u5236\u53f0"
       ],
       "Restart Kernel and Clear\u2026": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\u5e76\u6e05\u9664\u2026"
+        "\u91cd\u542f\u5185\u6838\u5e76\u6e05\u9664\u2026"
       ],
       "Restart Kernel and Debug\u2026": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\u5e76\u8c03\u8bd5\u2026"
+        "\u91cd\u542f\u5185\u6838\u5e76\u8c03\u8bd5\u2026"
       ],
       "Restart Kernel and Run All": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\u5e76\u8fd0\u884c\u6240\u6709"
+        "\u91cd\u542f\u5185\u6838\u5e76\u8fd0\u884c\u6240\u6709"
       ],
       "Restart Kernel and Run All Cells\u2026": [
-        "\u91cd\u542f\u670d\u52a1\u5e76\u8fd0\u884c\u6240\u6709\u4ee3\u7801\u5757\u2026"
+        "\u91cd\u542f\u5e76\u8fd0\u884c\u6240\u6709\u5355\u5143\u683c\u2026"
       ],
       "Restart Kernel and Run All Code": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\u5e76\u8fd0\u884c\u6240\u6709\u4ee3\u7801"
+        "\u91cd\u542f\u5185\u6838\u5e76\u8fd0\u884c\u6240\u6709\u4ee3\u7801"
       ],
       "Restart Kernel and Run up to Selected Cell\u2026": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\u5e76\u8fd0\u884c\u5230\u6240\u9009\u5355\u5143\u683c\u2026"
+        "\u91cd\u542f\u5185\u6838\u5e76\u8fd0\u884c\u5230\u6240\u9009\u5355\u5143\u683c\u2026"
       ],
       "Restart Kernel?": [
         "\u91cd\u542f\u5185\u6838\uff1f"
@@ -1544,13 +1544,13 @@
         "\u91cd\u542f\u5185\u6838\u2026"
       ],
       "Restart Server": [
-        "\u91cd\u65b0\u542f\u52a8\u670d\u52a1\u5668"
+        "\u91cd\u542f\u670d\u52a1\u5668"
       ],
       "Restart the kernel": [
         "\u91cd\u542f\u5185\u6838"
       ],
       "Restart the kernel, then re-run the whole notebook": [
-        "\u91cd\u65b0\u542f\u52a8\u5185\u6838\uff0c\u7136\u540e\u91cd\u65b0\u8fd0\u884c\u6574\u4e2a\u7b14\u8bb0\u672c"
+        "\u91cd\u542f\u5185\u6838\uff0c\u7136\u540e\u91cd\u65b0\u8fd0\u884c\u6574\u4e2a\u7b14\u8bb0\u672c"
       ],
       "Restarting": [
         "\u6b63\u5728\u91cd\u542f"
@@ -2058,7 +2058,7 @@
         "\u8fd9\u4e2a\u8f6f\u4ef6\u5305\u8868\u793a\u5b83\u9700\u8981\u4e00\u4e2a\u76f8\u5e94\u7684\u670d\u52a1\u5668\u6269\u5c55\u3002 \u8bf7\u8054\u7cfb\u60a8\u7684\u7ba1\u7406\u5458\u7528\u4e0b\u9762\u7684\u547d\u4ee4\u66f4\u65b0\u670d\u52a1\u5668\uff1a"
       ],
       "To use JupyterLab again, you will need to relaunch it.": [
-        "\u82e5\u8981\u518d\u6b21\u4f7f\u7528 JupyterLab \uff0c\u60a8\u9700\u8981\u91cd\u65b0\u542f\u52a8\u5b83\u3002"
+        "\u82e5\u8981\u518d\u6b21\u4f7f\u7528 JupyterLab\uff0c\u60a8\u9700\u8981\u91cd\u65b0\u8fd0\u884c\u5b83\u3002"
       ],
       "Toggle All Line Numbers": [
         "\u5207\u6362\u6240\u6709\u884c\u53f7"
@@ -2591,6 +2591,9 @@
       "settings\u0004Defines if the placeholder cells should be rendered when the browser is idle": [
         "\u5b9a\u4e49\u5f53\u6d4f\u89c8\u5668\u7a7a\u95f2\u65f6\u662f\u5426\u6e32\u67d3\u5360\u4f4d\u5355\u5143\u683c"
       ],
+      "settings\u0004Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message.": [
+        "\u5bf9\u4e8e\u5177\u6709\u591a\u4e2a\u8f93\u51fa\u7684\u5355\u5143\u683c\uff0c\u5b9a\u4e49\u5176\u8f93\u51fa\u533a\u57df\u8981\u5448\u73b0\u7684\u8f93\u51fa\u5355\u5143\u683c\u7684\u6700\u5927\u6570\u91cf\u3002\u8f93\u51fa\u533a\u57df\u5c06\u5305\u542b\u4e00\u4e2a\u5934\u90e8\u548c\u90e8\u5206\u6d88\u606f\u5185\u5bb9\u3002\u53ea\u6709\u5f53\u7528\u6237\u5355\u51fb\u6d88\u606f\u540e\uff0c\u624d\u4f1a\u663e\u793a\u5b8c\u6574\u7684\u6d88\u606f\u3002"
+      ],
       "settings\u0004Defines the maximum number of output cells to to to be rendered in the output area for cells with many outputs. The output area will have a head and a tail, and the outputs between will be trimmed and not displayed unless the user clicks on the information message.": [
         "\u5bf9\u4e8e\u6709\u5f88\u591a\u8f93\u51fa\u5185\u5bb9\u7684\u5355\u5143\u683c\uff0c\u5b9a\u4e49\u5176\u8f93\u51fa\u533a\u57df\u8981\u5448\u73b0\u7684\u8f93\u51fa\u5355\u5143\u683c\u7684\u6700\u5927\u6570\u91cf\u3002\u8f93\u51fa\u533a\u57df\u5c06\u5305\u542b\u4e00\u4e2a\u5f00\u5934\u548c\u7ed3\u5c3e\u90e8\u5206\uff0c\u9664\u975e\u7528\u6237\u70b9\u51fb\u4fe1\u606f\u6d88\u606f\uff0c\u5426\u5219\u4e2d\u95f4\u7684\u8f93\u51fa\u5185\u5bb9\u5c06\u526a\u88c1\u5e76\u4e0d\u4f1a\u663e\u793a\u3002"
       ],
@@ -2665,6 +2668,9 @@
       ],
       "settings\u0004Font size": [
         "\u5b57\u4f53\u5927\u5c0f"
+      ],
+      "settings\u0004Global setting to enable side-by-side rendering in notebooks": [
+        "\u5f00\u542f\u7b14\u8bb0\u672c\u5e76\u6392\u6e32\u67d3\u7684\u5168\u5c40\u8bbe\u7f6e"
       ],
       "settings\u0004Half-period in milliseconds used for cursor blinking. The default blink rate is 530ms. By setting this to zero, blinking can be disabled. A negative value hides the cursor entirely.": [
         "\u5149\u6807\u95ea\u70c1\u6240\u7528\u7684\u534a\u6bb5\u65f6\u95f4\uff08\u6beb\u79d2\uff09\u3002\u9ed8\u8ba4\u95ea\u5149\u901f\u7387\u4e3a 530 \u6beb\u79d2\u3002\u5982\u679c\u8bbe\u7f6e\u4e3a\u96f6\u5c06\u7981\u7528\u95ea\u70c1\u3002\u5982\u679c\u8bbe\u4e3a\u8d1f\u503c\u5c06\u5b8c\u5168\u9690\u85cf\u5149\u6807\u3002"
@@ -2861,6 +2867,9 @@
       "settings\u0004Shut down the session when closing the terminal.": [
         "\u5173\u95ed\u7ec8\u7aef\u65f6\u7ec8\u6b62\u6b64\u4f1a\u8bdd\u3002"
       ],
+      "settings\u0004Side-by-side rendering": [
+        "\u5e76\u6392\u6e32\u67d3"
+      ],
       "settings\u0004Sidebar": [
         "\u4fa7\u8fb9\u680f"
       ],
@@ -2944,6 +2953,9 @@
       ],
       "settings\u0004The list of keyboard shortcuts.": [
         "\u952e\u76d8\u5feb\u6377\u952e\u5217\u8868\u3002"
+      ],
+      "settings\u0004The maximum number of output cells to be rendered in the output area. Set to 0 to have the complete display.": [
+        "\u8f93\u51fa\u533a\u57df\u4e2d\u8981\u5448\u73b0\u7684\u8f93\u51fa\u5355\u5143\u683c\u7684\u6700\u5927\u6570\u91cf\u3002\u8bbe\u7f6e\u4e3a 0 \u4ee5\u663e\u793a\u6240\u6709\u7684\u5355\u5143\u683c\u3002"
       ],
       "settings\u0004The maximum number of output cells to to be rendered in the output area. Set to 0 to have the complete display.": [
         "\u8f93\u51fa\u533a\u57df\u4e2d\u8981\u5448\u73b0\u7684\u8f93\u51fa\u5355\u5143\u683c\u7684\u6700\u5927\u6570\u91cf\u3002\u8bbe\u7f6e\u4e3a 0 \u4ee5\u663e\u793a\u5168\u90e8\u5185\u5bb9\u3002"
@@ -3160,8 +3172,14 @@
       "Are you sure you want to permanently discard changes to all files? This action cannot be undone.": [
         "\u60a8\u786e\u5b9a\u60f3\u8981\u6c38\u4e45\u653e\u5f03\u6240\u6709\u6587\u4ef6\u7684\u6539\u52a8\uff1f\u6b64\u64cd\u4f5c\u65e0\u6cd5\u64a4\u6d88\u3002"
       ],
+      "Are you sure you want to permanently discard changes to all unstaged files? This action cannot be undone.": [
+        "\u60a8\u786e\u5b9a\u60f3\u8981\u6c38\u4e45\u653e\u5f03\u6240\u6709\u672a\u6682\u5b58\u6587\u4ef6\u7684\u6539\u52a8\uff1f\u6b64\u64cd\u4f5c\u65e0\u6cd5\u64a4\u6d88\u3002"
+      ],
       "Are you sure you want to permanently discard changes to the following files?               This action cannot be undone.": [
         "\u60a8\u786e\u5b9a\u8981\u6c38\u4e45\u653e\u5f03\u5bf9\u4ee5\u4e0b\u6587\u4ef6\u7684\u6539\u52a8\uff1f               \u6b64\u64cd\u4f5c\u65e0\u6cd5\u64a4\u6d88\u3002"
+      ],
+      "Branch '%1' merged into '%2'.": [
+        "\u5206\u652f\u300c%1\u300d\u5df2\u5408\u5e76\u81f3\u300c%2\u300d\u3002"
       ],
       "Branch created.": [
         "\u5206\u652f\u5df2\u521b\u5efa\u3002"
@@ -3196,6 +3214,9 @@
       "Clear the current filter": [
         "\u6e05\u9664\u5f53\u524d\u7b5b\u9009\u5668"
       ],
+      "Clone": [
+        "\u514b\u9686"
+      ],
       "Clone a Repository": [
         "\u514b\u9686\u4e00\u4e2a\u4ed3\u5e93"
       ],
@@ -3208,11 +3229,17 @@
       "Cloning...": [
         "\u6b63\u5728\u514b\u9686..."
       ],
+      "Cloning\u2026": [
+        "\u6b63\u5728\u514b\u9686\u2026"
+      ],
       "Close this dialog": [
         "\u5173\u95ed\u6b64\u5bf9\u8bdd\u6846"
       ],
       "Close this dialog without creating a new branch": [
         "\u5173\u95ed\u6b64\u5bf9\u8bdd\u6846\u800c\u4e0d\u65b0\u5efa\u5206\u652f"
+      ],
+      "Close this dialog without merging a branch": [
+        "\u5173\u95ed\u5f53\u524d\u5bf9\u8bdd\u6846\u800c\u4e0d\u5408\u5e76\u5206\u652f"
       ],
       "Commit": [
         "\u63d0\u4ea4"
@@ -3229,8 +3256,14 @@
       "Committing changes...": [
         "\u6b63\u5728\u63d0\u4ea4\u6539\u52a8..."
       ],
+      "Common Ancestor": [
+        "\u5171\u540c\u7956\u5148"
+      ],
       "Conflicted": [
         "\u6709\u51b2\u7a81\u7684"
+      ],
+      "Continue Without Pulling": [
+        "\u4e0d\u62c9\u53d6\u5e76\u7ee7\u7eed"
       ],
       "Create Branch": [
         "\u65b0\u5efa\u5206\u652f"
@@ -3253,11 +3286,20 @@
       "Create branch based on...": [
         "\u521b\u5efa\u5206\u652f\u57fa\u4e8e..."
       ],
+      "Create branch based on\u2026": [
+        "\u57fa\u4e8e\u5176\u4ed6\u5206\u652f\u521b\u5efa\u65b0\u5206\u652f\u2026"
+      ],
       "Creating a new branch is disabled": [
         "\u65b0\u5efa\u5206\u652f\u5df2\u7981\u7528"
       ],
       "Creating branch...": [
         "\u6b63\u5728\u521b\u5efa\u5206\u652f..."
+      ],
+      "Creating branch\u2026": [
+        "\u6b63\u5728\u521b\u5efa\u5206\u652f\u2026"
+      ],
+      "Current": [
+        "\u5f53\u524d"
       ],
       "Current Branch": [
         "\u5f53\u524d\u5206\u652f"
@@ -3337,6 +3379,9 @@
       "Discard all changes failed.": [
         "\u653e\u5f03\u6240\u6709\u6539\u52a8\u5931\u8d25\u3002"
       ],
+      "Discard all current changes and pull from remote repository": [
+        "\u653e\u5f03\u6240\u6709\u5f53\u524d\u6539\u52a8\u5e76\u4ece\u8fdc\u7a0b\u4ed3\u5e93\u62c9\u53d6"
+      ],
       "Discard all unstaged changes failed.": [
         "\u653e\u5f03\u6240\u6709\u672a\u6682\u5b58\u6539\u52a8\u5931\u8d25\u3002"
       ],
@@ -3360,6 +3405,9 @@
       ],
       "Discarding changes...": [
         "\u8fd9\u5728\u653e\u5f03\u6539\u52a8..."
+      ],
+      "Discarding changes\u2026": [
+        "\u8fd9\u5728\u653e\u5f03\u6539\u52a8\u2026"
       ],
       "Dismiss": [
         "\u5ffd\u7565"
@@ -3448,6 +3496,9 @@
       "Failed to load the jupyterlab-git server extension settings": [
         "\u65e0\u6cd5\u8f7d\u5165 jupyterlab-git \u670d\u52a1\u5668\u6269\u5c55\u8bbe\u7f6e"
       ],
+      "Failed to merge branch '%1' into '%2'.": [
+        "\u5408\u5e76\u5206\u652f\u300c%1\u300d\u5230\u300c%2\u300d\u5931\u8d25\u3002"
+      ],
       "Failed to pull": [
         "\u62c9\u53d6\u5931\u8d25"
       ],
@@ -3472,6 +3523,9 @@
       "Filter": [
         "\u7b5b\u9009\u5668"
       ],
+      "Filter branch list": [
+        "\u7b5b\u9009\u5206\u652f\u5217\u8868"
+      ],
       "Filter branch menu": [
         "\u7b5b\u9009\u5206\u652f\u83dc\u5355"
       ],
@@ -3480,6 +3534,9 @@
       ],
       "Git Interface": [
         "Git \u754c\u9762"
+      ],
+      "Git Pull from Remote Branch": [
+        "Git \u4ece\u8fdc\u7a0b\u5206\u652f\u62c9\u53d6"
       ],
       "Git credentials required": [
         "\u9700\u8981 Git \u51ed\u636e"
@@ -3524,6 +3581,9 @@
       "Ignore this file extension (add to .gitignore)": [
         "\u5ffd\u7565\u6b64\u6587\u4ef6\u6269\u5c55\uff08\u6dfb\u52a0\u5230 .gitignore\uff09"
       ],
+      "Incoming": [
+        "\u5916\u6765\u6539\u52a8"
+      ],
       "Incorrect username or password.": [
         "\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef\u3002"
       ],
@@ -3533,6 +3593,9 @@
       "Initializing...": [
         "\u6b63\u5728\u521d\u59cb\u5316..."
       ],
+      "Initializing\u2026": [
+        "\u6b63\u5728\u521d\u59cb\u5316\u2026"
+      ],
       "Manage branches and tags": [
         "\u7ba1\u7406\u5206\u652f\u548c\u6807\u7b7e"
       ],
@@ -3541,6 +3604,27 @@
       ],
       "Mark file as resolved": [
         "\u6807\u8bb0\u6587\u4ef6\u4e3a\u5df2\u89e3\u51b3"
+      ],
+      "Merge": [
+        "\u5408\u5e76"
+      ],
+      "Merge Branch": [
+        "\u5408\u5e76\u5206\u652f"
+      ],
+      "Merge Branch\u2026": [
+        "\u5408\u5e76\u5206\u652f\u2026"
+      ],
+      "Merge branch": [
+        "\u5408\u5e76\u5206\u652f"
+      ],
+      "Merge selected branch in the current branch": [
+        "\u5408\u5e76\u5df2\u9009\u5206\u652f\u5230\u5f53\u524d\u5206\u652f"
+      ],
+      "Merge this branch into the current one": [
+        "\u5408\u5e76\u6b64\u5206\u652f\u5230\u5f53\u524d\u5206\u652f"
+      ],
+      "Merging branch '%1'\u2026": [
+        "\u6b63\u5728\u5408\u5e76\u5206\u652f\u300c%1\u300d\u2026"
       ],
       "Name": [
         "\u540d\u79f0"
@@ -3562,6 +3646,9 @@
       ],
       "Not in a Git repository. Unable to add a remote.": [
         "\u4e0d\u5728 Git \u4ed3\u5e93\u4e2d\u3002\u65e0\u6cd5\u6dfb\u52a0\u8fdc\u7a0b\u7248\u672c\u3002"
+      ],
+      "One or more open files are behind %1 head. Do you want to pull the latest remote version?": [
+        "\u4e00\u4e2a\u6216\u591a\u4e2a\u5df2\u6253\u5f00\u7684\u6587\u4ef6\u5df2\u843d\u540e\u4e8e\u5934\u90e8 %1\u3002\u60a8\u60f3\u8981\u62c9\u53d6\u6700\u65b0\u7684\u8fdc\u7a0b\u7248\u672c\u5417\uff1f"
       ],
       "Open": [
         "\u6253\u5f00"
@@ -3599,8 +3686,17 @@
       "Publish branch": [
         "\u53d1\u5e03\u5206\u652f"
       ],
+      "Pull": [
+        "\u62c9\u53d6"
+      ],
       "Pull from Remote": [
         "\u4ece\u8fdc\u7a0b\u62c9\u53d6"
+      ],
+      "Pull from Remote (Force)": [
+        "\u63a8\u9001\u81f3\u8fdc\u7a0b\uff08\u5f3a\u5236\uff09"
+      ],
+      "Pull from remote branch": [
+        "\u4ece\u8fdc\u7a0b\u62c9\u53d6\u5206\u652f"
       ],
       "Pull latest changes": [
         "\u62c9\u53bb\u6700\u65b0\u6539\u52a8"
@@ -3610,6 +3706,9 @@
       ],
       "Pulling...": [
         "\u6b63\u5728\u62c9\u53d6..."
+      ],
+      "Pulling\u2026": [
+        "\u6b63\u5728\u62c9\u53d6\u2026"
       ],
       "Push code to remote repository": [
         "\u63a8\u9001\u4ee3\u7801\u5230\u8fdc\u7a0b\u4ed3\u5e93"
@@ -3626,6 +3725,9 @@
       "Pushing...": [
         "\u6b63\u5728\u63a8\u9001..."
       ],
+      "Pushing\u2026": [
+        "\u6b63\u5728\u63a8\u9001\u2026"
+      ],
       "RESULT": [
         "\u7ed3\u679c"
       ],
@@ -3641,6 +3743,12 @@
       "Refreshing...": [
         "\u6b63\u5728\u5237\u65b0..."
       ],
+      "Refreshing\u2026": [
+        "\u6b63\u5728\u5237\u65b0\u2026"
+      ],
+      "Remote Changes": [
+        "\u8fdc\u7a0b\u6539\u52a8"
+      ],
       "Remote Git repository URL": [
         "\u8fdc\u7a0b Git \u4ed3\u5e93 URL"
       ],
@@ -3649,6 +3757,9 @@
       ],
       "Resolve with conflicts": [
         "\u65e0\u89c6\u51b2\u7a81\u5e76\u6807\u8bb0\u4e3a\u5df2\u89e3\u51b3"
+      ],
+      "Result": [
+        "\u7ed3\u679c"
       ],
       "Revert '%1'": [
         "\u64a4\u56de\u300c%1\u300d"
@@ -3660,13 +3771,22 @@
         "\u64a4\u56de\u6b64\u6b21\u63d0\u4ea4\u5f15\u5165\u7684\u6539\u52a8"
       ],
       "Reverting changes...": [
-        "\u64a4\u56de\u6539\u52a8..."
+        "\u6b63\u5728\u64a4\u56de\u6539\u52a8..."
+      ],
+      "Reverting changes\u2026": [
+        "\u6b63\u5728\u64a4\u56de\u6539\u52a8\u2026"
       ],
       "SHOW": [
         "\u663e\u793a"
       ],
+      "Select the branch to merge in %1": [
+        "\u9009\u62e9\u8981\u5408\u5e76\u81f3 %1 \u7684\u5206\u652f"
+      ],
       "Set Up Remotes": [
         "\u8bbe\u7f6e\u8fdc\u7a0b\u7248\u672c"
+      ],
+      "Show": [
+        "\u663e\u793a"
       ],
       "Show Diff": [
         "\u663e\u793a\u5dee\u5f02\u5bf9\u6bd4"
@@ -3754,6 +3874,9 @@
       ],
       "The default branch. Pick this if you want to start fresh from the default branch.": [
         "\u9ed8\u8ba4\u5206\u652f\u3002\u5982\u679c\u60a8\u60f3\u8981\u4ece\u9ed8\u8ba4\u5206\u652f\u5f00\u59cb\uff0c\u8bf7\u9009\u6b64\u9879\u3002"
+      ],
+      "The following open files remain behind:": [
+        "\u4e0b\u5217\u6253\u5f00\u7684\u6587\u4ef6\u4ecd\u7136\u843d\u540e\u6700\u65b0\u7248\u672c\uff1a"
       ],
       "The versions of the JupyterLab Git server frontend and backend do not match. The @jupyterlab/git frontend extension has version: %1 while the python package has version %2. Please install identical version of jupyterlab-git Python package and the @jupyterlab/git extension. Try running: pip install --upgrade jupyterlab-git": [
         "JupyterLab Git \u670d\u52a1\u5668\u7684\u524d\u7aef\u548c\u540e\u7aef\u7248\u672c\u4e0d\u5339\u914d\u3002@jupyterlab/git \u524d\u7aef\u6269\u5c55\u7248\u672c\u4e3a\uff1a%1\u3002\u800c Python \u5305\u7248\u672c\u4e3a %2\u3002\u8bf7\u5b89\u88c5\u76f8\u540c\u7248\u672c\u7684 jupyterlab-git Python \u5305\u548c @jupyterlab/git \u6269\u5c55\u3002\u5c1d\u8bd5\u8fd0\u884c\uff1apip install --jupyterlab-git"
@@ -3845,6 +3968,9 @@
       "Your changes to the following files would be overwritten by switching:": [
         "\u60a8\u5bf9\u4ee5\u4e0b\u6587\u4ef6\u7684\u6539\u52a8\u5c06\u901a\u8fc7\u5207\u6362\u88ab\u8986\u76d6\uff1a"
       ],
+      "Your current changes forbid pulling the latest changes. Do you want to permanently discard those changes? This action cannot be undone.": [
+        "\u60a8\u5f53\u524d\u7684\u6539\u52a8\u963b\u6b62\u60a8\u62c9\u53d6\u6700\u65b0\u6539\u52a8\u3002\u60a8\u662f\u5426\u60f3\u6c38\u4e45\u653e\u5f03\u5f53\u524d\u6539\u52a8\uff1f\u6b64\u64cd\u4f5c\u65e0\u6cd5\u64a4\u9500\u3002"
+      ],
       "git command not found - please ensure you have Git > 2 installed": [
         "git \u547d\u4ee4\u672a\u627e\u5230 - \u8bf7\u786e\u4fdd\u60a8\u5df2\u5b89\u88c5 Git 2 \u6216\u66f4\u9ad8\u7248\u672c"
       ],
@@ -3870,7 +3996,7 @@
         "Git"
       ],
       "schema\u0004jupyterlab-git settings.": [
-        "jupyterlab-git \u8bbe\u7f6e"
+        "jupyterlab-git \u8bbe\u7f6e\u3002"
       ],
       "settings\u0004Cancel pull merge conflict": [
         "\u53d6\u6d88\u62c9\u53d6\u64cd\u4f5c\u7684\u5408\u5e76\u51b2\u7a81"
@@ -3893,6 +4019,9 @@
       "settings\u0004History count": [
         "\u5386\u53f2\u8ba1\u6570"
       ],
+      "settings\u0004If true, a popup dialog will be displayed if a user opens a file that is behind its remote branch version, or if an opened file has updates on the remote branch.": [
+        "\u5982\u679c\u5f00\u542f\uff0c\u5f53\u4e00\u4e2a\u7528\u6237\u6253\u5f00\u4e86\u4e00\u4e2a\u6587\u4ef6\u843d\u540e\u4e8e\u8fdc\u7a0b\u5206\u652f\u7684\u7248\u672c\uff0c\u6216\u8005\u8be5\u6587\u4ef6\u5728\u8fdc\u7a0b\u5206\u652f\u6709\u66f4\u65b0\uff0c\u5219\u5f39\u51fa\u5bf9\u8bdd\u6846\u8fdb\u884c\u63d0\u9192\u3002"
+      ],
       "settings\u0004If true, double clicking a file in the list of changed files will open a diff.": [
         "\u5982\u679c\u8bbe\u7f6e\u4e3a true\uff0c\u53cc\u51fb\u5df2\u66f4\u6539\u6587\u4ef6\u5217\u8868\u4e2d\u7684\u67d0\u4e2a\u6587\u4ef6\uff0c\u5c06\u4f1a\u663e\u793a\u65b0\u65e7\u7248\u672c\u7684\u5dee\u5f02\u3002"
       ],
@@ -3910,6 +4039,9 @@
       ],
       "settings\u0004Number of milliseconds between polling the file system for changes.": [
         "\u4e3a\u4e86\u627e\u51fa\u5df2\u7ecf\u66f4\u6539\u7684\u6587\u4ef6\uff0c\u9700\u8981\u5b9a\u65f6\u8f6e\u8be2\u6587\u4ef6\u7cfb\u7edf\u3002\u672c\u9009\u9879\u662f\u8f6e\u8be2\u95f4\u9694\u7684\u8bbe\u7f6e\uff0c\u5355\u4f4d\u662f\u6beb\u79d2\u3002"
+      ],
+      "settings\u0004Open files behind warning": [
+        "\u6253\u5f00\u4e2d\u7684\u6587\u4ef6\u843d\u540e\u7248\u672c\u65f6\u53d1\u51fa\u8b66\u544a"
       ],
       "settings\u0004Refresh if the Git tab is hidden": [
         "\u5982\u679c Git \u6807\u7b7e\u9875\u9690\u85cf\u5219\u5237\u65b0"
@@ -3961,6 +4093,9 @@
       "%2/%3 virtual document connected (%4 connections; waiting for: %5)": [
         "%2/%3 \u4e2a\u865a\u62df\u6587\u6863\u5df2\u8fde\u63a5\uff08%4 \u4e2a\u8fde\u63a5\uff1b\u7b49\u5f85\uff1a%5\uff09"
       ],
+      "Available": [
+        "\u53ef\u4f7f\u7528"
+      ],
       "Cancel": [
         "\u53d6\u6d88"
       ],
@@ -3981,6 +4116,9 @@
       ],
       "Display the completer themes": [
         "\u663e\u793a\u8865\u5168\u5668\u4e3b\u9898"
+      ],
+      "Documentation:": [
+        "\u6587\u6863:"
       ],
       "Error": [
         "\u9519\u8bef"
@@ -4049,8 +4187,14 @@
       "LSP server extension not found": [
         "\u672a\u627e\u5230 LSP \u670d\u52a1\u5668\u6269\u5c55"
       ],
+      "LSP servers": [
+        "LSP \u670d\u52a1\u5668"
+      ],
       "LSP status": [
         "LSP \u72b6\u6001"
+      ],
+      "Language Servers": [
+        "\u8bed\u8a00\u670d\u52a1\u5668"
       ],
       "Licence: ": [
         "\u8bb8\u53ef\u534f\u8bae\uff1a"
@@ -4063,6 +4207,9 @@
       ],
       "Message from ": [
         "\u4fe1\u606f\u6765\u6e90 "
+      ],
+      "Missing": [
+        "\u7f3a\u5931"
       ],
       "No installation instructions were provided with this specification.": [
         "\u6ca1\u6709\u63d0\u4f9b\u6b64\u89c4\u8303\u7684\u5b89\u88c5\u8bf4\u660e\u3002"
@@ -4107,6 +4254,9 @@
       ],
       "Renaming %1 to %2...": [
         "\u91cd\u547d\u540d %1 \u4e3a %2..."
+      ],
+      "Running": [
+        "\u8fd0\u884c\u4e2d"
       ],
       "Severity": [
         "\u4e25\u91cd\u7b49\u7ea7"
@@ -4180,6 +4330,14 @@
       ],
       "path to nodejs executable": [
         "nodejs \u53ef\u6267\u884c\u6587\u4ef6\u8def\u5f84"
+      ],
+      "pluralized\u0004%2/%3 virtual document connected (%4 connections; waiting for: %5)": [
+        "%2/%3 \u4e2a\u865a\u62df\u6587\u6863\u5df2\u8fde\u63a5\uff08%4 \u4e2a\u8fde\u63a5\uff1b\u6b63\u5728\u7b49\u5f85\uff1a%5\uff09",
+        "%2/%3 \u4e2a\u865a\u62df\u6587\u6863\u5df2\u8fde\u63a5\uff08%4 \u4e2a\u8fde\u63a5\uff1b\u6b63\u5728\u7b49\u5f85\uff1a%5\uff09"
+      ],
+      "pluralized\u0004Fully connected, but %2/%3 virtual document stuck uninitialized: %4": [
+        "\u5df2\u5b8c\u5168\u8fde\u63a5\uff0c\u4f46 %2/%3 \u4e2a\u865a\u62df\u6587\u6863\u672a\u80fd\u5b8c\u6210\u521d\u59cb\u5316\uff1a%4",
+        "\u5df2\u5b8c\u5168\u8fde\u63a5\uff0c\u4f46 %2/%3 \u4e2a\u865a\u62df\u6587\u6863\u672a\u80fd\u5b8c\u6210\u521d\u59cb\u5316\uff1a%4"
       ],
       "schema\u0004Code Completion": [
         "\u4ee3\u7801\u8865\u5168"
@@ -4256,6 +4414,9 @@
       "settings\u0004Codes of diagnostics which should not be shown in the panel nor highlighted in the editor.": [
         "\u9700\u8981\u5728\u9762\u677f\u4e2d\u9690\u85cf\u4e14\u5728\u7f16\u8f91\u5668\u4e2d\u4e0d\u9ad8\u4eae\u7684\u8bca\u65ad\u4ee3\u7801\u3002"
       ],
+      "settings\u0004Completer layout": [
+        "\u8865\u5168\u7ec4\u4ef6\u7684\u5e03\u5c40"
+      ],
       "settings\u0004Completer theme": [
         "\u8865\u5168\u4e3b\u9898"
       ],
@@ -4315,6 +4476,9 @@
       ],
       "settings\u0004Language-server specific configuration, keyed by implementation, e.g: \n\npyls: {\n  serverSettings: {\n    pyls: {\n      plugins: {\n        pydocstyle: {\n          enabled: true\n        },\n        pyflakes: {\n          enabled: false\n        },\n        flake8: {\n          enabled: true\n        }\n      }\n    }\n  }\n}\n\nAlternatively, using VSCode's naming convention:\n\npyls: {\n  serverSettings: {\n    \"pyls.plugins.pydocstyle.enabled\": true,\n    \"pyls.plugins.pyflakes.enabled\": false,\n    \"pyls.plugins.flake8.enabled\": true\n  }\n}": [
         "\u8bed\u8a00\u670d\u52a1\u5668\u7684\u8bbe\u7f6e\uff0c\u6309\u5b9e\u73b0\u5206\u7c7b\uff0c\u4f8b\u5982\uff1a\n\npyls: {\n  serverSettings: {\n    pyls: {\n      plugins: {\n        pydocstyle: {\n          enabled: true\n        },\n        pyflakes: {\n          enabled: false\n        },\n        flake8: {\n          enabled: true\n        }\n      }\n    }\n  }\n}\n\n\u53ef\u9009\u7684\uff0c\u4f7f\u7528 VSCode \u7684\u540d\u79f0\u8f6c\u6362\uff1a\n\npyls: {\n  serverSettings: {\n    \"pyls.plugins.pydocstyle.enabled\": true,\n    \"pyls.plugins.pyflakes.enabled\": false,\n    \"pyls.plugins.flake8.enabled\": true\n  }\n}"
+      ],
+      "settings\u0004Layout of the completer, one of: 'detail-below', 'side-by-side'": [
+        "\u8865\u5168\u7ec4\u4ef6\u7684\u5e03\u5c40\u8bbe\u7f6e\uff0c\u4e8c\u9009\u4e00\uff1a\u201c\u5728\u4e0b\u9762\u5448\u73b0\u8be6\u7ec6\u4fe1\u606f\u201d\uff0c\u201c\u5e76\u5217\u201d"
       ],
       "settings\u0004Log all LSP communication with the LSP servers": [
         "\u8bb0\u5f55\u4e0e LSP \u670d\u52a1\u5668\u7684\u6240\u6709 LSP \u901a\u4fe1"
@@ -4606,6 +4770,74 @@
         "\u5728\u7b14\u8bb0\u672c\u4e2d\u4fdd\u5b58 Jupyter \u5c0f\u7ec4\u4ef6\u72b6\u6001"
       ]
     },
+    "jupytext": {
+      "": {
+        "domain": "jupytext",
+        "language": "zh-CN",
+        "plural_forms": "nplurals=1; plural=0;",
+        "version": "jupyterlab"
+      },
+      "Custom pairing": [
+        "\u81ea\u5b9a\u4e49\u914d\u5bf9"
+      ],
+      "Error": [
+        "\u9519\u8bef"
+      ],
+      "Include Metadata": [
+        "\u5305\u62ec\u5143\u6570\u636e"
+      ],
+      "Jupytext FAQ": [
+        "Jupytext \u5e38\u89c1\u95ee\u9898"
+      ],
+      "Jupytext Reference": [
+        "Jupytext \u53c2\u8003\u6587\u6863"
+      ],
+      "Markdown File": [
+        "Markdown \u6587\u4ef6"
+      ],
+      "MyST Markdown Notebook": [
+        "MyST Markdown \u7b14\u8bb0\u672c"
+      ],
+      "Pair Notebook with Hydrogen Script": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a Hydrogen \u811a\u672c"
+      ],
+      "Pair Notebook with Markdown": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a Markdown"
+      ],
+      "Pair Notebook with MyST Markdown": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a MyST Markdown"
+      ],
+      "Pair Notebook with Quarto (qmd)": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a Quarto\uff08qmd\uff09"
+      ],
+      "Pair Notebook with R Markdown": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a R Markdown"
+      ],
+      "Pair Notebook with ipynb document": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a ipynb \u6587\u6863"
+      ],
+      "Pair Notebook with light Script": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a\u8f7b\u91cf\u811a\u672c"
+      ],
+      "Pair Notebook with nomarker Script": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a\u65e0\u6807\u8bb0\uff08nomarker\uff09\u811a\u672c"
+      ],
+      "Pair Notebook with percent Script": [
+        "\u914d\u5bf9\u7b14\u8bb0\u672c\u4e3a\u767e\u5206\u53f7\u811a\u672c"
+      ],
+      "Please edit the notebook metadata directly if you wish a custom configuration.": [
+        "\u5982\u679c\u60a8\u60f3\u8981\u81ea\u5b9a\u4e49\u914d\u7f6e\uff0c\u8bf7\u76f4\u63a5\u7f16\u8f91\u7b14\u8bb0\u672c\u7684\u5143\u6570\u636e\u3002"
+      ],
+      "Quarto Notebook": [
+        "Quarto \u7b14\u8bb0\u672c"
+      ],
+      "R Markdown Notebook": [
+        "R Markdown \u7b14\u8bb0\u672c"
+      ],
+      "Unpair Notebook": [
+        "\u53d6\u6d88\u914d\u5bf9\u7b14\u8bb0\u672c"
+      ]
+    },
     "retrolab": {
       "": {
         "domain": "retrolab",
@@ -4675,6 +4907,21 @@
       ],
       "Version: %1": [
         "\u7248\u672c\uff1a%1"
+      ],
+      "schema\u0004RetroLab Top Area": [
+        "RetroLab \u9876\u90e8\u533a\u57df"
+      ],
+      "schema\u0004RetroLab Top Area settings": [
+        "RetroLab \u9876\u90e8\u533a\u57df\u8bbe\u7f6e"
+      ],
+      "settings\u0004RetroLab Top Area": [
+        "RetroLab \u9876\u90e8\u533a\u57df"
+      ],
+      "settings\u0004Top Bar Visibility": [
+        "\u9876\u90e8\u680f\u76ee\u53ef\u89c1\u6027"
+      ],
+      "settings\u0004Whether to show the top bar or not": [
+        "\u662f\u5426\u663e\u793a\u9876\u90e8\u680f\u76ee"
       ]
     },
     "spellchecker": {

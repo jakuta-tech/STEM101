@@ -1,6 +1,6 @@
 {
   "name": "bqplot",
-  "version": "0.5.32",
+  "version": "0.5.34",
   "description": "bqplot",
   "keywords": [
     "jupyter",
@@ -93,6 +93,7 @@
   },
   "jupyterlab": {
     "extension": "lib/jupyterlab-plugin",
+    "webpackConfig": "webpack.lab.config.js",
     "outputDir": "../share/jupyter/labextensions/bqplot",
     "sharedPackages": {
       "@jupyter-widgets/base": {
@@ -101,7 +102,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.490fbd2bdf754b661d13.js",
+      "load": "static/remoteEntry.af71ba374fc8128e6506.js",
       "extension": "./extension"
     }
   },

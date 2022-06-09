@@ -7,14 +7,23 @@
         "plural_forms": "nplurals=2; plural=(n > 1);",
         "version": "jupyterlab"
       },
+      "schema\u0004Dask": [
+        "Dask"
+      ],
       "schema\u0004Dask Dashboard": [
         "Tableau de bord de Dask"
       ],
       "schema\u0004Settings for the Dask Dashboard plugin.": [
         "Param\u00e8tres pour le plugin Dask Dashboard."
       ],
+      "schema\u0004Settings for the Dask plugin.": [
+        "Param\u00e8tres pour le plugin Dask."
+      ],
       "settings\u0004Auto-Start Client": [
         "D\u00e9marrage automatique du client"
+      ],
+      "settings\u0004Dask": [
+        "Dask"
       ],
       "settings\u0004Dask Dashboard": [
         "Tableau de bord de Dask"
@@ -22,8 +31,14 @@
       "settings\u0004Default URL for the Dask Dashboard Webserver": [
         "URL par d\u00e9faut pour le serveur Web du tableau de bord du Dask"
       ],
+      "settings\u0004Hide Cluster Manager": [
+        "Masquer le gestionnaire de cluster"
+      ],
       "settings\u0004If set to true, every notebook and console will automatically have a dask client for the active cluster injected into the kernel under the name 'client'": [
         "Si d\u00e9fini \u00e0 true, chaque notebook et console aura automatiquement un client dask pour le cluster actif inject\u00e9 dans le noyau sous le nom de 'client'"
+      ],
+      "settings\u0004Some deployments don't want to or are unable to use the cluster manager feature. Toggle to hide it from the user interface (note: this does not disable the underlying functionality).": [
+        "Certains d\u00e9ploiements ne veulent pas ou ne sont pas capables d'utiliser la fonctionnalit\u00e9 de gestion du cluster. Activer/d\u00e9sactiver cette fonction de l'interface utilisateur (note: cela ne d\u00e9sactive pas la fonctionnalit\u00e9 sous-jacente)."
       ]
     },
     "jupyter_archive": {
@@ -184,11 +199,23 @@
       "Active cell trusted: %1 of %2 cells trusted.": [
         "Cellules actives approuv\u00e9es: %1 sur %2 cellules fiables."
       ],
+      "Add": [
+        "Ajouter"
+      ],
       "Add Checkpoint": [
         "Ajouter un point de contr\u00f4le"
       ],
       "Add Tag": [
         "Ajouter une \u00e9tiquette"
+      ],
+      "Add another shortcut": [
+        "Ajouter un raccourci"
+      ],
+      "Add new shortcut": [
+        "Cr\u00e9er un raccourci"
+      ],
+      "Advanced JSON Settings Editor": [
+        "\u00c9diteur avanc\u00e9 JSON des param\u00e8tres"
       ],
       "Advanced Settings Editor": [
         "\u00c9diteur des Configurations Avanc\u00e9es"
@@ -306,11 +333,17 @@
       "Cannot Save": [
         "Enregistrement impossible"
       ],
+      "Cannot fetch": [
+        "Impossible de r\u00e9cup\u00e9rer"
+      ],
       "Cannot open": [
         "Ouverture impossible"
       ],
       "Cannot upload file (>%1 MB). %2": [
         "Impossible de charger le fichier (>%1 Mo). %2"
+      ],
+      "Category": [
+        "Cat\u00e9gorie"
       ],
       "Cell Metadata": [
         "M\u00e9tadonn\u00e9es de la cellule"
@@ -510,8 +543,14 @@
       "Copy the selected cells": [
         "Copier les cellules s\u00e9lectionn\u00e9es"
       ],
+      "Copy the selected cells and paste them below the selection": [
+        "Copie les cellules s\u00e9lectionn\u00e9es et colle-les sous la s\u00e9lection"
+      ],
       "Could not find path: %1": [
         "Impossible de trouver le chemin : %1"
+      ],
+      "Could not open URL: %1": [
+        "Impossible d'ouvrir l'URL: %1"
       ],
       "Create Console for Editor": [
         "Cr\u00e9er une console pour l'\u00e9diteur"
@@ -624,6 +663,9 @@
       "Disable Scrolling for Outputs": [
         "D\u00e9sactiver le d\u00e9filement pour les sorties"
       ],
+      "Disable pausing on exceptions": [
+        "D\u00e9sactiver l'interruption en cas d'exceptions"
+      ],
       "Discard": [
         "Abandonner"
       ],
@@ -666,11 +708,31 @@
       "Duplicate": [
         "Dupliquer"
       ],
+      "Duplicate Cells Below": [
+        "Dupliquer les cellules en dessous"
+      ],
       "Edit": [
         "\u00c9dition"
       ],
+      "Edit First": [
+        "Modifier en premier"
+      ],
+      "Edit Second": [
+        "Modifier la seconde"
+      ],
+      "Edit existing shortcut": [
+        "Modifier le raccourci existant"
+      ],
+      "Elapsed time: %1 second": [
+        "Elapsed time: %1 seconds",
+        "Temps \u00e9coul\u00e9 : %1 seconde",
+        "Temps \u00e9coul\u00e9 : %1 secondes"
+      ],
       "Enable": [
         "Activer"
+      ],
+      "Enable / Disable pausing on exceptions": [
+        "Activer / D\u00e9sactiver l'interruption en cas d'exceptions"
       ],
       "Enable Debugger": [
         "Activer le d\u00e9bogueur"
@@ -683,6 +745,9 @@
       ],
       "Enable Scrolling for Outputs": [
         "Activer le d\u00e9filement pour les sorties"
+      ],
+      "Enable pausing on exceptions": [
+        "Activer l'interruption en cas d'exceptions"
       ],
       "Enter Command Mode": [
         "Passer en mode commande"
@@ -714,6 +779,9 @@
       "Error message:": [
         "Message d'erreur\u00a0:"
       ],
+      "Error saving settings.": [
+        "Erreur \u00e0 la sauvegarde des param\u00e8tres."
+      ],
       "Evaluate": [
         "\u00c9valuer"
       ],
@@ -728,6 +796,11 @@
       ],
       "Execute with Shift+Enter": [
         "Ex\u00e9cuter avec Maj + Entr\u00e9e"
+      ],
+      "Executed %1 request": [
+        "Executed %1 requests",
+        "%1 requ\u00eate ex\u00e9cut\u00e9e",
+        "%1 requ\u00eates ex\u00e9cut\u00e9es"
       ],
       "Expand All Code": [
         "D\u00e9velopper tout le code"
@@ -761,6 +834,18 @@
       ],
       "Extension Manager section": [
         "Param\u00e8tres du gestionnaire d'extensions"
+      ],
+      "Fail to get '%1' source:\n%2": [
+        "Impossible d'obtenir la source '%1' :\n%2"
+      ],
+      "Fail to get kernel sources": [
+        "Impossible d'obtenir les sources du noyau"
+      ],
+      "Fail to get kernel sources:\n%2": [
+        "Impossible d'obtenir les sources du noyau :\n%2"
+      ],
+      "Fail to get source": [
+        "Impossible d'obtenir la source"
       ],
       "File Browser": [
         "Explorateur de fichiers"
@@ -852,14 +937,14 @@
       "HTML File": [
         "Fichier HTML"
       ],
-      "HTML Viewer": [
-        "Visionneuse HTML"
-      ],
       "Handle Local Link": [
         "G\u00e9rer le lien local"
       ],
       "Help": [
         "Aide"
+      ],
+      "Hide Selectors": [
+        "Cacher les s\u00e9lecteurs"
       ],
       "Hub": [
         "Hub"
@@ -948,6 +1033,9 @@
       "JSON File": [
         "Fichier JSON"
       ],
+      "JSON Settings Editor": [
+        "\u00c9diteur JSON des param\u00e8tres"
+      ],
       "JavaScript output is disabled in JupyterLab": [
         "La sortie JavaScript est d\u00e9sactiv\u00e9e dans JupyterLab"
       ],
@@ -999,11 +1087,20 @@
       "Kernel Restarting": [
         "Red\u00e9marrage du noyau en cours"
       ],
+      "Kernel Sources": [
+        "Sources du noyau"
+      ],
       "Kernel Terminating": [
         "Fermeture du noyau"
       ],
       "Kernel and Server Companions": [
         "Compagnons Kernel et Serveur"
+      ],
+      "Kernel does not support pausing on exceptions.": [
+        "Le noyau ne supporte pas l'interruption en cas d'exceptions."
+      ],
+      "Kernel status: %1": [
+        "Statut du noyau : %1"
       ],
       "Kernel: %1": [
         "Noyau: %1"
@@ -1107,14 +1204,23 @@
       "Mode: %1": [
         "Mode : %1"
       ],
+      "Modified": [
+        "Modifi\u00e9"
+      ],
       "Move Cells Down": [
         "D\u00e9placer les cellules vers le bas"
       ],
       "Move Cells Up": [
         "D\u00e9placer les cellules vers le haut"
       ],
+      "Move Down": [
+        "Descendre"
+      ],
       "Move Error": [
         "Erreur lors du d\u00e9placement"
+      ],
+      "Move Up": [
+        "Monter"
       ],
       "Name": [
         "Nom"
@@ -1218,6 +1324,9 @@
       "No errors found": [
         "Aucune erreur trouv\u00e9e"
       ],
+      "No items match your search.": [
+        "Aucun \u00e9l\u00e9ment ne correspond \u00e0 votre recherche."
+      ],
       "No log messages.": [
         "Aucun message de journal."
       ],
@@ -1253,6 +1362,9 @@
       ],
       "Notebook is in %1 mode": [
         "Le notebook est en mode %1"
+      ],
+      "Notebook is still rendering and has for now (%1) remaining cells to render.\n\nPlease wait for the complete rendering before invoking that action.": [
+        "Le notebook est toujours en cours de rendu et il reste %1 cellules \u00e0 rendre.\n\nVeuillez attendre le rendu complet avant d'invoquer cette action."
       ],
       "Notebook not trusted: %1 of %2 cells trusted.": [
         "Notebook non fiable: %1 sur %2 cellules fiables."
@@ -1308,17 +1420,29 @@
       "Open Tabs Menu": [
         "Ouvrir le menu Onglets"
       ],
+      "Open URL": [
+        "Ouvrir l'URL"
+      ],
       "Open View Menu": [
         "Ouvrir le menu Affichage"
       ],
       "Open from Path\u2026": [
         "Ouvrir \u00e0 partir du chemin\u2026"
       ],
+      "Open from URL": [
+        "Ouvrir depuis l'URL"
+      ],
+      "Open from URL\u2026": [
+        "Ouvrir depuis l'URL\u2026"
+      ],
       "Open from path": [
         "Ouvrir depuis le chemin d'acc\u00e8s"
       ],
       "Open in New Browser Tab": [
         "Ouvrir dans un nouvel onglet de navigation"
+      ],
+      "Open in Simple Mode": [
+        "Ouvrir en Mode Simple"
       ],
       "Open in the Main Area": [
         "Ouvrir dans la zone principale"
@@ -1443,8 +1567,14 @@
       "Refresh extension list": [
         "Rafra\u00eechir la liste des extensions"
       ],
+      "Refresh kernel sources": [
+        "Actualiser les sources du noyau"
+      ],
       "Refresh the current terminal session": [
         "Rafra\u00eechir la session du terminal actuel"
+      ],
+      "Refresh the file browser.": [
+        "Rafra\u00eechir le navigateur de fichiers."
       ],
       "Reload": [
         "Recharger"
@@ -1457,6 +1587,9 @@
       ],
       "Reload contents from disk": [
         "Recharger le contenu \u00e0 partir du disque"
+      ],
+      "Remove": [
+        "Supprimer"
       ],
       "Remove All Breakpoints": [
         "Supprimer tous les points d\u2019arr\u00eat"
@@ -1479,8 +1612,17 @@
       "Render All Markdown Cells": [
         "Effectuer le rendu de toutes les cellules Markdown"
       ],
-      "Render Side-by-side": [
+      "Render Side-by-Side": [
         "Afficher le code et la sortie c\u00f4te \u00e0 c\u00f4te"
+      ],
+      "Render Variable": [
+        "Rendre une variable"
+      ],
+      "Render variable": [
+        "Rendre une variable"
+      ],
+      "Render variable according to its mime type": [
+        "Rendre la variable en fonction de son type MIME"
       ],
       "Renderer Failure: %1": [
         "\u00c9chec du rendu : %1"
@@ -1506,11 +1648,23 @@
       "Rerender HTML Document": [
         "R\u00e9ex\u00e9cuter un rendu du document HTML"
       ],
+      "Reset": [
+        "R\u00e9initialiser"
+      ],
+      "Reset All": [
+        "Tout r\u00e9initialiser"
+      ],
       "Reset Application State": [
         "R\u00e9initialiser l'\u00e9tat de l'application"
       ],
       "Reset Image": [
         "R\u00e9initialiser l'image"
+      ],
+      "Reset all shortcuts": [
+        "R\u00e9tablir tous les raccourcis par d\u00e9faut"
+      ],
+      "Reset shortcut back to default": [
+        "R\u00e9tablir le raccourci par d\u00e9faut"
       ],
       "Restart": [
         "Red\u00e9marrer"
@@ -1556,6 +1710,9 @@
       ],
       "Restarting": [
         "Red\u00e9marrage en cours"
+      ],
+      "Restore to Defaults": [
+        "R\u00e9initialiser"
       ],
       "Reveal.js Slides": [
         "Diapositives Reveal.js"
@@ -1638,6 +1795,9 @@
       "Run Selected Text or Current Line in Console": [
         "Ex\u00e9cuter le texte s\u00e9lectionn\u00e9 ou la ligne actuelle dans la console"
       ],
+      "Run the all notebook cells": [
+        "Ex\u00e9cuter toutes les cellules du Notebook"
+      ],
       "Run the selected cells and advance": [
         "Ex\u00e9cuter les cellules s\u00e9lectionn\u00e9es et avancer"
       ],
@@ -1719,6 +1879,9 @@
       "Script": [
         "Script"
       ],
+      "Search": [
+        "Rechercher"
+      ],
       "Search Cell Outputs": [
         "R\u00e9sultats de la cellule de recherche"
       ],
@@ -1730,6 +1893,9 @@
       ],
       "Search on File Names": [
         "Rechercher dans les noms de fichiers"
+      ],
+      "Search\u2026": [
+        "Rechercher\u2026"
       ],
       "Select": [
         "S\u00e9lectionner"
@@ -1770,6 +1936,9 @@
       "Selecting trust will re-render this notebook in a trusted state.": [
         "En s\u00e9lectionnant approuve, ce notebook sera rendu \u00e0 nouveau dans un \u00e9tat approuv\u00e9."
       ],
+      "Selectors": [
+        "S\u00e9lecteurs"
+      ],
       "Server Companion": [
         "Compagnon du serveur"
       ],
@@ -1796,6 +1965,12 @@
       ],
       "Shift+Right Click for Browser Menu": [
         "Maj+Clic droit pour le menu de navigation"
+      ],
+      "Shortcut": [
+        "Raccourci"
+      ],
+      "Shortcut already in use by %1. Overwrite it?": [
+        "Raccourci d\u00e9j\u00e0 utilis\u00e9 par %1. L'\u00e9craser ?"
       ],
       "Show Active File in File Browser": [
         "Afficher le fichier actif dans le navigateur de fichiers"
@@ -1832,6 +2007,9 @@
       ],
       "Show Right Sidebar": [
         "Afficher la barre lat\u00e9rale droite"
+      ],
+      "Show Selectors": [
+        "Afficher les s\u00e9lecteurs"
       ],
       "Show Status Bar": [
         "Afficher la barre d\u2019\u00e9tat"
@@ -1904,6 +2082,9 @@
       ],
       "Slides": [
         "Diapositives"
+      ],
+      "Some changes have not been saved. Continue without saving?": [
+        "Certaines modifications n'ont pas \u00e9t\u00e9 enregistr\u00e9es. Continuer sans enregistrer ?"
       ],
       "Source": [
         "Source"
@@ -2027,6 +2208,9 @@
       "The server has some missing requirements for installing extensions.": [
         "Le serveur a des pr\u00e9-requis manquants pour installer des extensions."
       ],
+      "The variable is undefined in the active context.": [
+        "La variable n'est pas d\u00e9finie dans le contexte actif."
+      ],
       "Theme": [
         "Th\u00e8me"
       ],
@@ -2075,6 +2259,18 @@
       "Toggle Markdown Text Cells": [
         "Activer/d\u00e9sactiver les cellules de texte Markdown"
       ],
+      "Toggle Selectors": [
+        "Activer/D\u00e9sactiver les s\u00e9lecteurs"
+      ],
+      "Toggle command selectors": [
+        "Afficher/Masquer les s\u00e9lecteurs de commandes"
+      ],
+      "Toggle search filter": [
+        "(D\u00e9s)activer le filtre"
+      ],
+      "Toolbar customization has changed. You will need to reload JupyterLab to see the changes.": [
+        "La personnalisation de la barre d'outils a chang\u00e9. Vous devrez recharger JupyterLab pour voir les modifications."
+      ],
       "Tree View": [
         "Vue en arborescence"
       ],
@@ -2090,6 +2286,9 @@
       "Trust this notebook?": [
         "Faire confiance au notebook?"
       ],
+      "URL": [
+        "URL"
+      ],
       "Undo": [
         "Annuler"
       ],
@@ -2101,6 +2300,9 @@
       ],
       "Unknown": [
         "Inconnu"
+      ],
+      "Unsaved changes due to validation error. Continue without saving?": [
+        "Modifications non enregistr\u00e9es en raison d'une erreur de validation. Continuer sans enregistrer ?"
       ],
       "Update": [
         "Mettre \u00e0 jour"
@@ -2147,6 +2349,9 @@
       "Warning": [
         "Attention"
       ],
+      "Whether the HTML file is trusted.\n    Trusting the file allows scripts to run in it,\n    which may result in security risks.\n    Only enable for files you trust.": [
+        "Si le fichier HTML est fiable.\n  Faire confiance au fichier permet \u00e0 des scripts de s'ex\u00e9cuter dedans,\n  ce qui peut entra\u00eener des risques de s\u00e9curit\u00e9.\n  Activer uniquement pour les fichiers de confiance."
+      ],
       "Whether the HTML file is trusted.\nTrusting the file allows scripts to run in it,\nwhich may result in security risks.\nOnly enable for files you trust.": [
         "Si le fichier HTML est fiable.\nFaire confiance au fichier permet \u00e0 des scripts de s'ex\u00e9cuter dedans,\nce qui peut entra\u00eener des risques de s\u00e9curit\u00e9.\nActiver uniquement pour les fichiers de confiance."
       ],
@@ -2189,6 +2394,12 @@
       "Zoom Out": [
         "D\u00e9zoomer"
       ],
+      "`%1` is not a valid property": [
+        "`%1` n'est pas une propri\u00e9t\u00e9 valide"
+      ],
+      "additional property error": [
+        "propri\u00e9t\u00e9 suppl\u00e9mentaire incorrecte"
+      ],
       "alternate sidebar": [
         "barre lat\u00e9rale alternative"
       ],
@@ -2197,6 +2408,9 @@
       ],
       "default": [
         "d\u00e9faut"
+      ],
+      "error": [
+        "erreur"
       ],
       "file browser": [
         "explorateur de fichiers"
@@ -2273,8 +2487,14 @@
       "notebook content": [
         "contenu du Notebook"
       ],
+      "or": [
+        "ou"
+      ],
       "pipe": [
         "tuyau"
+      ],
+      "press keys": [
+        "appuyez sur les touches"
       ],
       "schema\u0004Application Commands": [
         "Commandes d'application"
@@ -2284,6 +2504,18 @@
       ],
       "schema\u0004Application commands settings.": [
         "Param\u00e8tres des commandes de l'application."
+      ],
+      "schema\u0004CSV Viewer": [
+        "Visionneuse CSV"
+      ],
+      "schema\u0004CSV Viewer settings.": [
+        "Param\u00e8tres de la visionneuse CSV."
+      ],
+      "schema\u0004Cell Toolbar": [
+        "Barre d'outils des cellules"
+      ],
+      "schema\u0004Cell Toolbar Settings.": [
+        "Param\u00e8tres de la barre d'outils des cellules."
       ],
       "schema\u0004Code Console": [
         "Console de code"
@@ -2369,7 +2601,13 @@
       "schema\u0004File Browser Open With settings.": [
         "Param\u00e8tres Navigateur de fichiers Ouvrir avec."
       ],
+      "schema\u0004File Browser Widget": [
+        "Navigateur de fichiers"
+      ],
       "schema\u0004File Browser settings.": [
+        "Param\u00e8tres du navigateur de fichiers."
+      ],
+      "schema\u0004File Browser widget settings.": [
         "Param\u00e8tres du navigateur de fichiers."
       ],
       "schema\u0004File Editor Completer": [
@@ -2383,6 +2621,12 @@
       ],
       "schema\u0004File editor tooltip settings.": [
         "Param\u00e8tres d'info-bulle de l'\u00e9diteur de fichiers."
+      ],
+      "schema\u0004HTML Viewer": [
+        "Visionneuse HTML"
+      ],
+      "schema\u0004HTML Viewer settings.": [
+        "Param\u00e8tres de la visionneuse HTML."
       ],
       "schema\u0004Help": [
         "Aide"
@@ -2413,6 +2657,12 @@
       ],
       "schema\u0004JupyterHub settings.": [
         "Param\u00e8tres JupyterHub."
+      ],
+      "schema\u0004JupyterLab Shell": [
+        "JupyterLab Interface"
+      ],
+      "schema\u0004JupyterLab Shell layout settings.": [
+        "Param\u00e8tres de mise en page de JupyterLab."
       ],
       "schema\u0004JupyterLab context menu settings.": [
         "Param\u00e8tres du menu contextuel de JupyterLab."
@@ -2465,6 +2715,12 @@
       "schema\u0004Notebook Export settings.": [
         "Param\u00e8tres d'exportation du Notebook."
       ],
+      "schema\u0004Notebook Panel": [
+        "Notebook"
+      ],
+      "schema\u0004Notebook Panel settings.": [
+        "Param\u00e8tres du Notebook."
+      ],
       "schema\u0004Notebook Tooltips": [
         "Info-bulles du notebook"
       ],
@@ -2489,6 +2745,12 @@
       "schema\u0004Setting editor settings.": [
         "Param\u00e8tres de l'\u00e9diteur de param\u00e8tres."
       ],
+      "schema\u0004Settings Editor Form UI": [
+        "Type d'\u00e9diteur de param\u00e8tres"
+      ],
+      "schema\u0004Settings editor form ui settings.": [
+        "Param\u00e8tres de l'\u00e9diteur de param\u00e8tres."
+      ],
       "schema\u0004Sidebar": [
         "Barre lat\u00e9rale"
       ],
@@ -2500,6 +2762,12 @@
       ],
       "schema\u0004Status Bar settings.": [
         "Param\u00e8tres de la barre d'\u00e9tat."
+      ],
+      "schema\u0004TSV Viewer": [
+        "Visionneuse TSV"
+      ],
+      "schema\u0004TSV Viewer settings.": [
+        "Param\u00e8tres de la visionneuse TSV."
       ],
       "schema\u0004Table of Contents": [
         "Table des Mati\u00e8res"
@@ -2534,11 +2802,17 @@
       "schema\u0004Workspaces settings.": [
         "Param\u00e8tres de l'espace de travail."
       ],
+      "settings\u0004A regular expression filter to apply by default when showing the kernel sources": [
+        "Une expression r\u00e9guli\u00e8re filtrant par d\u00e9faut les sources du noyau affich\u00e9es"
+      ],
       "settings\u0004Add a prefix to localized strings.": [
         "Ajouter un pr\u00e9fixe aux cha\u00eenes localis\u00e9es."
       ],
       "settings\u0004Add accessibility elements for use with screen readers.": [
         "Ajouter des \u00e9l\u00e9ments d'accessibilit\u00e9 \u00e0 utiliser avec les lecteurs d'\u00e9cran."
+      ],
+      "settings\u0004An item is defined by a 'name', a 'command' name, and an 'icon' name": [
+        "Un \u00e9l\u00e9ment est d\u00e9fini par un nom 'name', une commande 'command' et un nom d'ic\u00f4ne 'icon'"
       ],
       "settings\u0004Application Context Menu": [
         "Menu contextuel de l'application"
@@ -2546,20 +2820,38 @@
       "settings\u0004Application-level visual styling theme": [
         "Th\u00e8me de style visuel au niveau de l'application"
       ],
+      "settings\u0004Auto Closing Brackets": [
+        "Fermeture automatique des parenth\u00e8ses"
+      ],
       "settings\u0004Autosave Documents": [
         "Enregistrement automatique des documents"
       ],
       "settings\u0004Autosave Interval": [
         "Intervalle entre les sauvegardes automatiques"
       ],
+      "settings\u0004Boolean": [
+        "Bool\u00e9en"
+      ],
       "settings\u0004CSS file defining the corresponding\n.cm-s-[name] styles is loaded": [
         "Le fichier CSS d\u00e9finissant les styles\n.cm-s-[name] correspondants est charg\u00e9"
+      ],
+      "settings\u0004CSV viewer toolbar items": [
+        "\u00c9l\u00e9ments de la barre d'outils de la visionneuse CSV"
+      ],
+      "settings\u0004Close on exit": [
+        "Fermer \u00e0 la sortie"
+      ],
+      "settings\u0004Close the widget when exiting the terminal.": [
+        "Fermer le widget \u00e0 la sortie du terminal."
       ],
       "settings\u0004Code Cell Configuration": [
         "Configuration des cellules de code"
       ],
       "settings\u0004Code Console Settings": [
         "Param\u00e8tres de la console de code"
+      ],
+      "settings\u0004Code Folding": [
+        "Pliage de code"
       ],
       "settings\u0004CodeMirror": [
         "CodeMirror"
@@ -2573,11 +2865,17 @@
       "settings\u0004Configures the keymap to use": [
         "Configure la carte des touches \u00e0 utiliser"
       ],
-      "settings\u0004Ctrl-C": [
-        "Ctrl-C"
+      "settings\u0004Control the mouse cursor appearance when hovering over the selection. Value is boolean or string, e.g. 'pointer'.": [
+        "Apparence du curseur au survol de la s\u00e9lection. La valeur est un bool\u00e9en ou un type de pointeur comme 'pointer'."
+      ],
+      "settings\u0004Cursor Blinking Rate": [
+        "Taux de clignotement du curseur"
       ],
       "settings\u0004Cursor blinking rate": [
         "Taux de clignotement du curseur"
+      ],
+      "settings\u0004Cursor pointer name": [
+        "Type du curseur"
       ],
       "settings\u0004Debugger": [
         "D\u00e9bogueur"
@@ -2588,23 +2886,29 @@
       "settings\u0004Default cell type": [
         "Type de cellule par d\u00e9faut"
       ],
+      "settings\u0004Default kernel sources regexp filter": [
+        "Expression r\u00e9guli\u00e8re par d\u00e9faut pour filtrer les sources du noyau"
+      ],
       "settings\u0004Define the number of cells to render directly when virtual notebook intersection observer is available": [
         "D\u00e9finit le nombre de cellules \u00e0 g\u00e9n\u00e9rer lorsque l'inspecteur de Notebook est disponible"
+      ],
+      "settings\u0004Define the remaining time in milliseconds before virtual notebook rendering is rescheduled. Set 0 if you want to disable any rescheduling": [
+        "Temps restant en millisecondes avant que le rendu du notebook virtuel ne soit reprogramm\u00e9. Un temps de 0 d\u00e9sactivera la reprogrammation"
       ],
       "settings\u0004Defines if the placeholder cells should be rendered when the browser is idle": [
         "D\u00e9finit si les cellules de l'espace r\u00e9serv\u00e9 doivent \u00eatre affich\u00e9es lorsque le navigateur est inactif"
       ],
-      "settings\u0004Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message.": [
-        "D\u00e9finit le nombre maximum de r\u00e9sultats \u00e0 afficher par cellules. La zone de sortie affichera les premiers r\u00e9sultats uniquement \u00e0 moins que l'utilisateur ne clique sur le message d'information."
-      ],
-      "settings\u0004Defines the maximum number of output cells to to to be rendered in the output area for cells with many outputs. The output area will have a head and a tail, and the outputs between will be trimmed and not displayed unless the user clicks on the information message.": [
-        "D\u00e9finit le nombre maximum de cellules \u00e0 afficher dans la zone de sortie pour les cellules avec de nombreuses sorties. La zone de sortie aura une t\u00eate et une queue, et les sorties entre les deux seront coup\u00e9es et ne seront pas affich\u00e9es \u00e0 moins que l'utilisateur ne clique sur le message d'information."
+      "settings\u0004Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message. Set to 0 to have the complete display.": [
+        "D\u00e9finit le nombre maximum de r\u00e9sultats \u00e0 afficher par cellules. La zone de sortie affichera les premiers r\u00e9sultats uniquement \u00e0 moins que l'utilisateur ne clique sur le message d'information. Une valeur de 0 affichera toutes les r\u00e9sultats."
       ],
       "settings\u0004Defines the observed bottom margin for the virtual notebook, set a positive number of pixels to render cells below the visible view": [
         "D\u00e9finit la marge inf\u00e9rieure observ\u00e9e pour le notebook virtuel, d\u00e9finit un nombre positif de pixels pour rendre les cellules en dessous de la vue visible"
       ],
       "settings\u0004Defines the observed top margin for the virtual notebook, set a positive number of pixels to render cells above the visible view": [
         "D\u00e9finit la marge sup\u00e9rieure observ\u00e9e pour le notebook virtuel, d\u00e9finit un nombre positif de pixels pour rendre les cellules au dessus de la vue visible"
+      ],
+      "settings\u0004Defines the position and components of execution progress indicator.": [
+        "D\u00e9finit la position et les composants de l'indicateur de progression de l'ex\u00e9cution."
       ],
       "settings\u0004Disable the undo/redo on the notebook document level, so actions independent cells can have their own history. The undo/redo never applies on the outputs, in other words, outputs don't have history. A moved cell completely looses history capability for now.": [
         "D\u00e9sactive l'annulation des changements au niveau du notebook pour que les cellules ind\u00e9pendantes puissent avoir leur propre historique. Annuler les changements ne s'applique jamais aux sorties, en d'autres termes, les sorties n'ont pas d'historique. Actuellement une cellule d\u00e9plac\u00e9e perd compl\u00e8tement son historique."
@@ -2657,6 +2961,9 @@
       "settings\u0004File Browser": [
         "Explorateur de fichiers"
       ],
+      "settings\u0004File browser toolbar items": [
+        "\u00c9l\u00e9ments de la barre d'outils du navigateur de fichiers"
+      ],
       "settings\u0004Filter on file name with a fuzzy search": [
         "Filtrer sur le nom du fichier avec une recherche floue"
       ],
@@ -2672,14 +2979,35 @@
       "settings\u0004Font size": [
         "Taille des caract\u00e8res"
       ],
-      "settings\u0004Global setting to enable side-by-side rendering in notebooks": [
-        "R\u00e9glage global pour activer le rendu c\u00f4te \u00e0 c\u00f4te des notebooks"
+      "settings\u0004For the side-by-side rendering, the side-by-side output ratio defines the width of the output vs the input. Set 1 for same size, > 1 for larger output, < 1 for smaller output.": [
+        "Pour le rendu c\u00f4te \u00e0 c\u00f4te, le ratio des r\u00e9sultats d\u00e9finit la largeur des r\u00e9sultats par rapport \u00e0 l'entr\u00e9e. Mettre \u00e0 1 pour la m\u00eame largeur, > 1 pour des r\u00e9sultats plus large, < 1 pour des r\u00e9sultats moins large."
+      ],
+      "settings\u0004Global setting to define the rendering layout in notebooks. 'default' or 'side-by-side' are supported.": [
+        "Param\u00e8tre global pour d\u00e9finir la disposition de rendu dans les blocs-notes. 'default' (par d\u00e9faut) ou 'side-by-side' (c\u00f4te \u00e0 c\u00f4te) sont pris en charge."
+      ],
+      "settings\u0004HTML viewer toolbar items": [
+        "\u00c9l\u00e9ments de la barre d'outils de la visionneuse HTML"
       ],
       "settings\u0004Half-period in milliseconds used for cursor blinking. The default blink rate is 530ms. By setting this to zero, blinking can be disabled. A negative value hides the cursor entirely.": [
         "Demi-p\u00e9riode en millisecondes utilis\u00e9e pour clignoter le curseur. Le taux de clignotement par d\u00e9faut est de 530ms. En d\u00e9finissant cette valeur \u00e0 z\u00e9ro, le clignotement peut \u00eatre d\u00e9sactiv\u00e9. Une valeur n\u00e9gative masque compl\u00e8tement le curseur."
       ],
+      "settings\u0004Hidden mode of main panel widgets": [
+        "Mode pour masquer les widgets du panneau principal"
+      ],
       "settings\u0004Hide Front Matter": [
         "Cacher le Pr\u00e9ambule"
+      ],
+      "settings\u0004Highlight active line. Value is boolean, or { nonEmpty: boolean }.": [
+        "Surligner la ligne active. La valeur est un bool\u00e9en, ou '{ nonEmpty: boolean }'."
+      ],
+      "settings\u0004If `true`, the kernel status progression will be displayed in the status bar otherwise it will be in the toolbar.": [
+        "Si `true`, la progression de l'\u00e9tat du noyau sera affich\u00e9e dans la barre d'\u00e9tat, sinon elle sera dans la barre d'outils."
+      ],
+      "settings\u0004If defined, it will override the command icon": [
+        "Si d\u00e9fini, cela remplacera l'ic\u00f4ne de commande"
+      ],
+      "settings\u0004If defined, it will override the command label": [
+        "Si d\u00e9finie, cela remplacera le libell\u00e9 de la commande"
       ],
       "settings\u0004If set to true, when a header is collapsed in the table of contents the corresponding section in the notebook is collapsed as well and vice versa.": [
         "Si r\u00e9gl\u00e9 sur true, lorsqu'un en-t\u00eate est r\u00e9duit dans la table des mati\u00e8res, la section correspondante dans le bloc-notes est r\u00e9duite et vice versa."
@@ -2687,14 +3015,26 @@
       "settings\u0004Include cell output in headings": [
         "Inclure la sortie de cellule dans les en-t\u00eates"
       ],
+      "settings\u0004Insert Spaces": [
+        "Ins\u00e9rer des espaces"
+      ],
       "settings\u0004Interaction mode": [
         "Mode d'interaction"
+      ],
+      "settings\u0004Item icon id": [
+        "Identifiant de l'ic\u00f4ne"
+      ],
+      "settings\u0004Item label": [
+        "Libell\u00e9 de l'\u00e9l\u00e9ment"
       ],
       "settings\u0004Item rank": [
         "Rang de l'\u00e9l\u00e9ment"
       ],
       "settings\u0004Item type": [
         "Type d'\u00e9l\u00e9ment"
+      ],
+      "settings\u0004Kernel status icon configuration": [
+        "Configuration de l'ic\u00f4ne de statut du noyau"
       ],
       "settings\u0004Key Map": [
         "Carte des touches"
@@ -2714,11 +3054,23 @@
       "settings\u0004Line Height": [
         "Hauteur de ligne"
       ],
+      "settings\u0004Line Numbers": [
+        "Num\u00e9ros de ligne"
+      ],
       "settings\u0004Line Width": [
         "Largeur de ligne"
       ],
+      "settings\u0004Line Wrap": [
+        "Renvoi \u00e0 la ligne"
+      ],
       "settings\u0004Line height": [
         "Hauteur de ligne"
+      ],
+      "settings\u0004Line-wise Ctrl-C": [
+        "Copie d'une ligne"
+      ],
+      "settings\u0004List of toolbar items": [
+        "Liste des \u00e9l\u00e9ments de la barre d'outils"
       ],
       "settings\u0004Localized strings prefix": [
         "Pr\u00e9fixe de cha\u00eenes localis\u00e9es"
@@ -2737,6 +3089,9 @@
       ],
       "settings\u0004Markdown Viewer": [
         "Visualiseur Markdown"
+      ],
+      "settings\u0004Match Brackets": [
+        "Correspondance des parenth\u00e8ses"
       ],
       "settings\u0004Max acceptable difference, in milliseconds, between last modified timestamps on disk and client": [
         "Diff\u00e9rence maximale acceptable, en millisecondes, entre l'instant de la derni\u00e8re modification sur le disque et dans le client"
@@ -2780,11 +3135,32 @@
       "settings\u0004Note: To disable a menu or a menu item,\ncopy it to User Preferences and add the\n\"disabled\" key. The following example will disable\nthe \"Tabs\" menu and \"Restart Kernel and Run up to Selected Cell\"\nitem:\n{\n  \"menus\": [\n    {\n      \"id\": \"jp-mainmenu-tabs\",\n      \"disabled\": true\n    },\n    {\n      \"id\": \"jp-mainmenu-kernel\",\n      \"items\": [\n        {\n          \"command\": \"notebook:restart-and-run-to-selected\",\n          \"disabled\": true\n        }\n      ]\n    }\n  ]\n}\n\nMenu description:": [
         "Remarque : Pour d\u00e9sactiver un \u00e9l\u00e9ment de menu ou un menu,\ncopiez-le dans les pr\u00e9f\u00e9rences utilisateur et ajoutez la touche\n\"disabled\". L'exemple suivant d\u00e9sactivera\nle menu \"Onglet\" et \"Red\u00e9marrer le noyau et Ex\u00e9cuter jusqu'\u00e0 la cellule s\u00e9lectionn\u00e9e\"\n\u00e9l\u00e9ment :\n{\n  \"menus\": [\n    {\n      \"id\": \"jp-mainmenu-tabulations\",\n      \"d\u00e9sactiv\u00e9\": vrai\n    },\n    {\n      \"id\": \"jp-mainmenu-kernel\",\n      \"items\": [\n        {\n          \"command\": \"notebook:restart-and-run-to-selected\",\n          \"d\u00e9sactiv\u00e9\" : vrai\n        }\n      ]\n    }\n  ]\n}\n\ndescription du menu :"
       ],
+      "settings\u0004Note: To disable a toolbar item,\ncopy it to User Preferences and add the\n\"disabled\" key. The following example will disable the Interrupt button item:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"interrupt\",\n      \"disabled\": true\n    }\n  ]\n}\n\nToolbar description:": [
+        "Remarque : Pour d\u00e9sactiver un \u00e9l\u00e9ment de la barre d'outils,\ncopiez-le dans les pr\u00e9f\u00e9rences utilisateur et ajoutez l'attribut\n\"disabled\". L'exemple suivant d\u00e9sactivera le bouton pour interrompre l'ex\u00e9cution:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"interrupt\",\n      \"disabled\": true\n    }\n  ]\n}\n\nDescription de la barre d'outils :"
+      ],
+      "settings\u0004Note: To disable a toolbar item,\ncopy it to User Preferences and add the\n\"disabled\" key. The following example will disable the delimiter selector item:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"delimiter\",\n      \"disabled\": true\n    }\n  ]\n}\n\nToolbar description:": [
+        "Remarque : Pour d\u00e9sactiver un \u00e9l\u00e9ment de la barre d'outils,\ncopiez-le dans les pr\u00e9f\u00e9rences utilisateur et ajoutez l'attribut\n\"disabled\". L'exemple suivant d\u00e9sactivera le s\u00e9lecteur du caract\u00e8re de d\u00e9limitation:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"delimiter\",\n      \"disabled\": true\n    }\n  ]\n}\n\nDescription de la barre d'outils :"
+      ],
+      "settings\u0004Note: To disable a toolbar item,\ncopy it to User Preferences and add the\n\"disabled\" key. The following example will disable the refresh item:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"refresh\",\n      \"disabled\": true\n    }\n  ]\n}\n\nToolbar description:": [
+        "Remarque : Pour d\u00e9sactiver un \u00e9l\u00e9ment de la barre d'outils,\ncopiez-le dans les pr\u00e9f\u00e9rences utilisateur et ajoutez l'attribut\n\"disabled\". L'exemple suivant d\u00e9sactivera le bouton pour rafraichir la page:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"refresh\",\n      \"disabled\": true\n    }\n  ]\n}\n\nDescription de la barre d'outils :"
+      ],
+      "settings\u0004Note: To disable a toolbar item,\ncopy it to User Preferences and add the\n\"disabled\" key. The following example will disable the uploader button:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"uploader\",\n      \"disabled\": true\n    }\n  ]\n}\n\nToolbar description:": [
+        "Remarque : Pour d\u00e9sactiver un \u00e9l\u00e9ment de la barre d'outils,\ncopiez-le dans les pr\u00e9f\u00e9rences utilisateur et ajoutez l'attribut\n\"disabled\". L'exemple suivant d\u00e9sactivera le bouton pour envoyer un fichier:\n{\n  \"toolbar\": [\n    {\n      \"name\": \"uploader\",\n      \"disabled\": true\n    }\n  ]\n}\n\nDescription de la barre d'outils :"
+      ],
+      "settings\u0004Note: To disable a toolbar item,\ncopy it to User Preferences and add the\n\"disabled\" key. Toolbar description:": [
+        "Remarque : Pour d\u00e9sactiver un \u00e9l\u00e9ment de la barre d'outils,\ncopiez-le dans les pr\u00e9f\u00e9rences utilisateur et ajoutez la touche\n\"disabled\". Description de la barre d'outils :"
+      ],
       "settings\u0004Notebook": [
         "Notebook"
       ],
+      "settings\u0004Notebook panel toolbar items": [
+        "\u00c9l\u00e9ments de la barre d'outils du Notebook"
+      ],
       "settings\u0004Number of cells to render directly": [
         "Nombre de cellules \u00e0 afficher directement"
+      ],
+      "settings\u0004Object": [
+        "Objet"
       ],
       "settings\u0004Observed bottom margin": [
         "Marge inf\u00e9rieure observ\u00e9e"
@@ -2816,14 +3192,26 @@
       "settings\u0004Raw Cell Configuration": [
         "Configuration des cellules brutes"
       ],
+      "settings\u0004Read Only": [
+        "Lecture seule"
+      ],
       "settings\u0004Recording timing": [
         "Horodatage de l'enregistrement"
+      ],
+      "settings\u0004Remaining time in milliseconds before virtual notebook rendering is rescheduled": [
+        "Temps restant en millisecondes avant que le rendu du notebook virtuel ne soit reprogramm\u00e9"
       ],
       "settings\u0004Render Timeout": [
         "D\u00e9lai d'expiration pour le Rendu"
       ],
       "settings\u0004Render cell on browser idle time": [
         "G\u00e9n\u00e9rer les cellules quand le navigateur est inactif"
+      ],
+      "settings\u0004Rendering Layout": [
+        "Mise en page du rendu"
+      ],
+      "settings\u0004Rulers": [
+        "R\u00e8gles"
       ],
       "settings\u0004Screen Reader Mode": [
         "Mode lecture d'\u00e9cran"
@@ -2840,6 +3228,9 @@
       "settings\u0004Scrollbar Theming": [
         "Th\u00e8me de la barre de d\u00e9filement"
       ],
+      "settings\u0004Search debounce time (ms)": [
+        "D\u00e9lai de recherche (en ms)"
+      ],
       "settings\u0004Selected Theme": [
         "Th\u00e8me s\u00e9lectionn\u00e9"
       ],
@@ -2849,14 +3240,35 @@
       "settings\u0004Set the interface display language. Examples: 'es_CO', 'fr'.": [
         "D\u00e9finit la langue d'affichage de l'interface. Exemples: 'es_CO', 'fr'."
       ],
+      "settings\u0004Set the type of editor to use while editing your settings.": [
+        "D\u00e9finissez le type d'\u00e9diteur \u00e0 utiliser lors de l'\u00e9dition de vos param\u00e8tres."
+      ],
+      "settings\u0004Should an editor be shown for read-only markdown": [
+        "Un \u00e9diteur doit-il \u00eatre affich\u00e9 pour le markdown en lecture seule"
+      ],
       "settings\u0004Should timing data be recorded in cell metadata": [
         "Les donn\u00e9es de chronom\u00e9trage doivent-elles \u00eatre enregistr\u00e9es dans les m\u00e9tadonn\u00e9es de cellule"
       ],
       "settings\u0004Show All Kernel Activity": [
         "Afficher toute l'activit\u00e9 du noyau"
       ],
+      "settings\u0004Show Line Numbers": [
+        "Afficher les num\u00e9ros de ligne"
+      ],
+      "settings\u0004Show Trailing Space": [
+        "Afficher les espaces en fin de ligne"
+      ],
+      "settings\u0004Show editor for read-only Markdown cells": [
+        "Afficher l'\u00e9diteur pour les cellules Markdown en lecture seule"
+      ],
+      "settings\u0004Show execution progress.": [
+        "Afficher la progression de l'ex\u00e9cution."
+      ],
       "settings\u0004Show hidden files": [
         "Afficher les fichiers cach\u00e9s"
+      ],
+      "settings\u0004Show kernel status on toolbar or status bar.": [
+        "Afficher l'\u00e9tat du noyau sur la barre d'outils ou la barre d'\u00e9tat."
       ],
       "settings\u0004Show last modified column": [
         "Afficher la derni\u00e8re colonne modifi\u00e9e"
@@ -2870,11 +3282,26 @@
       "settings\u0004Shut down the session when closing the terminal.": [
         "Arr\u00eater la session lors de la fermeture du terminal."
       ],
-      "settings\u0004Side-by-side rendering": [
-        "Rendu c\u00f4te \u00e0 c\u00f4te"
+      "settings\u0004Side-by-side left margin override": [
+        "Marge \u00e0 gauche dans la vue c\u00f4te-\u00e0-c\u00f4te"
+      ],
+      "settings\u0004Side-by-side left margin override.": [
+        "Marge \u00e0 gauche dans la vue c\u00f4te-\u00e0-c\u00f4te."
+      ],
+      "settings\u0004Side-by-side output ratio": [
+        "Ratio des r\u00e9sultats dans la vue c\u00f4te \u00e0 c\u00f4te"
+      ],
+      "settings\u0004Side-by-side right margin override": [
+        "Marge \u00e0 droite dans la vue c\u00f4te-\u00e0-c\u00f4te"
+      ],
+      "settings\u0004Side-by-side right margin override.": [
+        "Marge \u00e0 droite dans la vue c\u00f4te-\u00e0-c\u00f4te."
       ],
       "settings\u0004Sidebar": [
         "Barre lat\u00e9rale"
+      ],
+      "settings\u0004Start mode: ``, `single`or `multiple`": [
+        "Mode d'affichage: '', 'single' (document unique) ou 'multiple' (multi documents)"
       ],
       "settings\u0004Status Bar": [
         "Barre d'\u00e9tat"
@@ -2897,11 +3324,20 @@
       "settings\u0004Synchronize collapse state": [
         "Synchroniser l'\u00e9tat r\u00e9duit"
       ],
+      "settings\u0004TSV viewer toolbar items": [
+        "\u00c9l\u00e9ments de la barre d'outils de la visionneuse TSV"
+      ],
+      "settings\u0004Tab Size": [
+        "Taille des tabulations"
+      ],
       "settings\u0004Table of Contents": [
         "Table des Mati\u00e8res"
       ],
       "settings\u0004Terminal": [
         "Terminal"
+      ],
+      "settings\u0004Text editor toolbar items": [
+        "\u00c9l\u00e9ments de la barre d'outils de l'\u00e9diteur de texte"
       ],
       "settings\u0004The CSS selector for the context menu item.": [
         "Le s\u00e9lecteur CSS pour l'\u00e9l\u00e9ment du menu contextuel."
@@ -2936,6 +3372,9 @@
       "settings\u0004The configuration for all text editors.\nIf `fontFamily`, `fontSize` or `lineHeight` are `null`,\nvalues from current theme are used.": [
         "La configuration pour tous les \u00e9diteurs de texte.\nSi `fontFamily`, `fontSize` ou `lineHeight` sont `null`,\nles valeurs du th\u00e8me actuel sont utilis\u00e9es."
       ],
+      "settings\u0004The debounce time in milliseconds applied to the search input field. The already opened input files will not be updated if you change that value": [
+        "Le d\u00e9lai en millisecondes appliqu\u00e9 entre deux recherches. Les fichiers d'entr\u00e9e d\u00e9j\u00e0 ouverts ne seront pas mis \u00e0 jour si vous modifiez cette valeur"
+      ],
       "settings\u0004The default type (markdown, code, or raw) for new cells": [
         "Type par d\u00e9faut des nouvelles cellules (markdown, code, ou brut)"
       ],
@@ -2957,11 +3396,14 @@
       "settings\u0004The list of keyboard shortcuts.": [
         "Liste des raccourcis clavier."
       ],
-      "settings\u0004The maximum number of output cells to be rendered in the output area. Set to 0 to have the complete display.": [
-        "Le nombre maximum de r\u00e9sultats d'une cellule \u00e0 afficher. Une valeur de 0 affichera l'ensemble des r\u00e9sultats."
+      "settings\u0004The maximum number of output cells to be rendered in the output area.": [
+        "Le nombre maximum de r\u00e9sultats \u00e0 afficher dans la zone de sortie d'une cellule."
       ],
-      "settings\u0004The maximum number of output cells to to be rendered in the output area. Set to 0 to have the complete display.": [
-        "Le nombre maximum de cellules de sortie \u00e0 afficher dans la zone de sortie. Mettre \u00e0 0 pour avoir l'affichage complet."
+      "settings\u0004The method for hiding widgets in the main dock panel. Using `scale` will often increase performance as most browsers will not trigger style computation for the transform action.": [
+        "La m\u00e9thode pour masquer les widgets dans le panneau principal du dock. L'utilisation de `scale` augmentera souvent les performances car la plupart des navigateurs ne d\u00e9clencheront pas le calcul de style pour l'action de transformation."
+      ],
+      "settings\u0004The mode under which JupyterLab should start. If empty, the mode will be imposed by the URL": [
+        "Le mode d'affichage de JupyterLab au d\u00e9marrage. Si vide, le mode sera impos\u00e9 par l'URL"
       ],
       "settings\u0004The render timeout in milliseconds.": [
         "D\u00e9lai maximum avant d'abandonner le rendu en millisecondes."
@@ -2987,14 +3429,14 @@
       "settings\u0004Treat option as meta key on macOS": [
         "Traiter l'option comme touche de combinaison sur macOS"
       ],
-      "settings\u0004Value is boolean": [
-        "La valeur est bool\u00e9enne"
+      "settings\u0004Type of editor for the setting.": [
+        "Type d'\u00e9diteur."
       ],
-      "settings\u0004Value is boolean or string, e.g. 'pointer'": [
-        "La valeur est un bool\u00e9en ou une cha\u00eene, par exemple 'pointeur'"
+      "settings\u0004Unique name": [
+        "Nom unique"
       ],
-      "settings\u0004Value is boolean, or { nonEmpty: boolean }": [
-        "La valeur est bool\u00e9enne, ou { nonEmpty: boolean }"
+      "settings\u0004Use default": [
+        "Utiliser la valeur par d\u00e9faut"
       ],
       "settings\u0004Variable filter": [
         "Filtre de variable"
@@ -3016,6 +3458,9 @@
       ],
       "settings\u0004Whether the item is disabled or not": [
         "Si l'\u00e9l\u00e9ment est d\u00e9sactiv\u00e9 ou non"
+      ],
+      "settings\u0004Whether the item is ignored or not": [
+        "Si l'\u00e9l\u00e9ment est ignor\u00e9 ou non"
       ],
       "settings\u0004Whether the menu is disabled or not": [
         "Si le menu est d\u00e9sactiv\u00e9 ou non"
@@ -3062,6 +3507,9 @@
       "settings\u0004Whether to shut down or not the kernel when closing a notebook.": [
         "Fermer ou non le noyau lors de la fermeture d'un notebook."
       ],
+      "settings\u0004Word Wrap Column": [
+        "Colonne de retour \u00e0 la ligne"
+      ],
       "settings\u0004font-family": [
         "famille de polices"
       ],
@@ -3095,17 +3543,23 @@
       "showErrorMessage\u0004Upload Error": [
         "Erreur lors du t\u00e9l\u00e9versement"
       ],
+      "syntax error": [
+        "erreur de syntaxe"
+      ],
       "tab": [
         "onglet"
       ],
       "the Jupyter security documentation": [
         "la documentation sur la s\u00e9curit\u00e9 de Jupyter"
       ],
+      "type error": [
+        "erreur de type"
+      ],
       "waiting for fonts": [
         "en attente de polices"
       ],
-      "\u00a9 2015-2021 Project Jupyter Contributors": [
-        "\u00a9 2015-2021 Contributeurs du projet Jupyter"
+      "\u00a9 2015-2022 Project Jupyter Contributors": [
+        "\u00a9 2015-2022 Contributeurs du projet Jupyter"
       ]
     },
     "jupyterlab_git": {
@@ -3235,6 +3689,12 @@
       "Cloning\u2026": [
         "Clonage en cours\u2026"
       ],
+      "Close": [
+        "Fermer"
+      ],
+      "Close all opened files to avoid conflicts": [
+        "Fermer tous les fichiers ouverts pour \u00e9viter les conflits"
+      ],
       "Close this dialog": [
         "Quitter cette fen\u00eatre de dialogue"
       ],
@@ -3244,8 +3704,17 @@
       "Close this dialog without merging a branch": [
         "Fermer cette bo\u00eete de dialogue sans fusionner une branche"
       ],
+      "Closing all opened files...": [
+        "Fermeture de tous les fichiers ouverts..."
+      ],
       "Commit": [
         "Commit"
+      ],
+      "Commit (Amend)": [
+        "Soumettre (en amendant)"
+      ],
+      "Commit (Amend) and Push": [
+        "Soumettre (en amendant) et Pousser"
       ],
       "Commit and Push": [
         "Commit et Push"
@@ -3261,6 +3730,12 @@
       ],
       "Common Ancestor": [
         "Anc\u00eatre commun"
+      ],
+      "Compare %1 and %2": [
+        "Comparer %1 et %2"
+      ],
+      "Compare with selected": [
+        "Comparer avec la s\u00e9lection"
       ],
       "Conflicted": [
         "Avec conflits"
@@ -3600,6 +4075,9 @@
       "Initializing\u2026": [
         "Initialisation\u2026"
       ],
+      "Looks like you still have unsaved staged files. Remember to save and stage all needed changes before committing!": [
+        "Vous avez encore des fichiers index\u00e9s non enregistr\u00e9s. N'oubliez pas d'enregistrer et d'indexer toutes les modifications n\u00e9cessaires avant de les enregistrer !"
+      ],
       "Manage branches and tags": [
         "G\u00e9rer les branches et les tags"
       ],
@@ -3641,6 +4119,12 @@
       ],
       "No actions available": [
         "Aucune action disponible"
+      ],
+      "No challenger commit selected.": [
+        "Aucun commit \u00e0 comparer s\u00e9lectionn\u00e9."
+      ],
+      "No changes": [
+        "Aucune modification"
       ],
       "No history found.": [
         "Aucun historique trouv\u00e9."
@@ -3686,6 +4170,9 @@
       ],
       "Please commit, stash, or discard your changes before you switch branches.": [
         "Veuillez valider, remiser ou annuler vos modifications avant de changer de branche."
+      ],
+      "Proceed": [
+        "Continuer"
       ],
       "Publish branch": [
         "Publier la branche"
@@ -3759,6 +4246,18 @@
       "Reset Changes": [
         "R\u00e9initialiser les changements"
       ],
+      "Reset Current Branch to Remote State": [
+        "R\u00e9tablir la branche actuelle \u00e0 l'\u00e9tat du d\u00e9p\u00f4t distant"
+      ],
+      "Reset failed": [
+        "\u00c9chec de la r\u00e9initialisation"
+      ],
+      "Reset to Remote": [
+        "R\u00e9tablir \u00e0 l'\u00e9tat du d\u00e9p\u00f4t distant"
+      ],
+      "Resetting...": [
+        "R\u00e9initialisation en cours..."
+      ],
       "Resolve with conflicts": [
         "R\u00e9soudre malgr\u00e9 les conflits"
       ],
@@ -3782,6 +4281,12 @@
       ],
       "SHOW": [
         "Afficher"
+      ],
+      "Save my login temporarily": [
+        "Enregistrer temporairement ma connexion"
+      ],
+      "Select for compare": [
+        "S\u00e9lectionner pour comparaison"
       ],
       "Select the branch to merge in %1": [
         "S\u00e9lectionnez la branche \u00e0 fusionner dans %1"
@@ -3855,6 +4360,12 @@
       "Successfully refreshed.": [
         "Actualisation r\u00e9ussie."
       ],
+      "Successfully reset": [
+        "R\u00e9initialisation r\u00e9ussie"
+      ],
+      "Successfully reset the current branch to its remote state": [
+        "La branche actuelle a \u00e9t\u00e9 r\u00e9initialis\u00e9e \u00e0 son \u00e9tat distant avec succ\u00e8s"
+      ],
       "Successfully reverted changes.": [
         "Changements annul\u00e9s avec succ\u00e8s."
       ],
@@ -3896,6 +4407,9 @@
       ],
       "This reverts commit %1": [
         "Ceci revient au commit %1"
+      ],
+      "To bring the current branch to the state of its corresponding remote tracking branch,             a hard reset will be performed, which may result in some files being permanently deleted             and some changes being permanently discarded. Are you sure you want to proceed?             This action cannot be undone.": [
+        "Pour r\u00e9tablir la branche actuelle \u00e0 l'\u00e9tat de sa branche distante correspondante, une r\u00e9initialisation forte sera effectu\u00e9e. Celle-ci peut entra\u00eener la suppression permanente de certains fichiers et la perte d\u00e9finitives de certaines modifications locales. \u00cates-vous s\u00fbr de vouloir continuer? Cette action ne peut pas \u00eatre annul\u00e9e."
       ],
       "Track": [
         "Suivre"
@@ -3957,6 +4471,9 @@
       "View the history of this file": [
         "Voir l'historique de ce fichier"
       ],
+      "Warning": [
+        "Avertissement"
+      ],
       "Who is committing?": [
         "Qui valide/commit?"
       ],
@@ -3969,11 +4486,20 @@
       "You are not currently in": [
         "Vous n'\u00eates pas actuellement dans"
       ],
+      "You have unsaved staged files. You probably want to save and stage all needed changes before committing.": [
+        "Vous avez des fichiers index\u00e9s non enregistr\u00e9s. Vous voulez probablement enregistrer et ajouter \u00e0 l'index toutes les modifications avant de les soumettre."
+      ],
+      "You have unsaved tracked files. You probably want to save all changes before committing.": [
+        "Vous avez des fichiers suivis non enregistr\u00e9s. Vous voulez probablement enregistrer toutes les modifications avant de les soumettre."
+      ],
       "Your changes to the following files would be overwritten by switching:": [
         "Vos modifications apport\u00e9es aux fichiers suivants seraient \u00e9cras\u00e9es:"
       ],
       "Your current changes forbid pulling the latest changes. Do you want to permanently discard those changes? This action cannot be undone.": [
         "Vos modifications actuelles interdisent d'extraire les derni\u00e8res modifications. Voulez-vous supprimer d\u00e9finitivement ces modifications ? Cette action ne peut pas \u00eatre annul\u00e9e."
+      ],
+      "credentials required": [
+        "identifiants requis"
       ],
       "git command not found - please ensure you have Git > 2 installed": [
         "commande git est introuvable - veuillez vous assurer que Git > 2 est install\u00e9"
@@ -4117,6 +4643,12 @@
       ],
       "Diagnostics Panel": [
         "Panneau des diagnostics"
+      ],
+      "Diagnostics are not available": [
+        "Les diagnostics ne sont pas disponibles"
+      ],
+      "Dismiss": [
+        "Ignorer"
       ],
       "Display the completer themes": [
         "Afficher les th\u00e8mes completer"
@@ -4454,6 +4986,9 @@
       "settings\u0004Disable": [
         "D\u00e9sactiver"
       ],
+      "settings\u0004Disable completions by source": [
+        "D\u00e9sactiver les compl\u00e9tions par source"
+      ],
       "settings\u0004Disable this feature. Requires reloading JupyterLab to apply changes.": [
         "D\u00e9sactiver cette fonctionnalit\u00e9. N\u00e9cessite de recharger JupyterLab pour appliquer les modifications."
       ],
@@ -4517,6 +5052,9 @@
       "settings\u0004Number of milliseconds to delay sending out the hover request to the language server; you can get better responsiveness adjusting this value, but setting it to zero can actually slow it down as the server might get overwhelmed when moving the mouse over the code.": [
         "Nombre de millisecondes pour retarder l'envoi de la requ\u00eate de surlignage au serveur de language ; vous pouvez obtenir une meilleure r\u00e9activit\u00e9 en ajustant cette valeur, mais le mettre \u00e0 z\u00e9ro peut en fait le ralentir car le serveur pourrait \u00eatre d\u00e9pass\u00e9 lors du d\u00e9placement du curseur."
       ],
+      "settings\u0004Pre-filter matches": [
+        "Pr\u00e9-filtrer les correspondances"
+      ],
       "settings\u0004Prioritize completions from kernel": [
         "Prioriser les compl\u00e9tions du noyau"
       ],
@@ -4534,6 +5072,9 @@
       ],
       "settings\u0004Should completion filtering be case-sensitive?": [
         "Le filtrage de compl\u00e9tion doit-il \u00eatre sensible \u00e0 la casse?"
+      ],
+      "settings\u0004Should matches be pre-filtered to ensure typed token is a prefix of the match?": [
+        "Les correspondances doivent-elles \u00eatre pr\u00e9-filtr\u00e9es pour s'assurer que le mot saisi est un pr\u00e9fixe de la correspondance?"
       ],
       "settings\u0004Should perfect matches be included in the completion suggestions list?": [
         "Faut-il inclure des correspondances parfaites dans la liste des suggestions de compl\u00e9tion?"
@@ -4603,6 +5144,120 @@
       ],
       "try to find known language servers in sys.prefix (and elsewhere)": [
         "essaye de trouver des serveurs de langage connus dans sys.prefix (et ailleurs)"
+      ]
+    },
+    "jupyterlab_search_replace": {
+      "": {
+        "domain": "jupyterlab_search_replace",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);",
+        "version": "jupyterlab"
+      },
+      "%2 result(s) in %1 file": [
+        "%2 results in %1 files",
+        "%2 correspondance(s) dans %1 fichier",
+        "%2 correspondances dans %1 fichiers"
+      ],
+      "<a href=\"%1\" target=\"_blank\">ripgrep</a> command was not found. You can install it using e.g. the <a href=\"%2\" target=\"_blank\">conda package manager</a>.": [
+        "La commande <a href=\"%1\" target=\"_blank\">ripgrep</a> n'a pas \u00e9t\u00e9 trouv\u00e9e. Vous pouvez l'installer en utilisant par exemple le <a href=\"%2\" target=\"_blank\">gestionnaire de paquets conda</a>."
+      ],
+      "Cancel": [
+        "Annuler"
+      ],
+      "Collapse All": [
+        "Tout r\u00e9duire"
+      ],
+      "Exclude file filters": [
+        "Filtres d'exclusion de fichiers"
+      ],
+      "Expand All": [
+        "Tout d\u00e9velopper"
+      ],
+      "Include file filters": [
+        "Filtres d'inclusion de fichiers"
+      ],
+      "Match Case": [
+        "Sensible \u00e0 la Casse"
+      ],
+      "Match Whole Word": [
+        "Correspondance du Mot Entier"
+      ],
+      "Maximal number of matches is reached for this file. You can increase it in the settings.": [
+        "Le nombre maximum de correspondances est atteint pour ce fichier. Vous pouvez l'augmenter dans les param\u00e8tres."
+      ],
+      "No results found.": [
+        "Aucune correspondance n'a \u00e9t\u00e9 trouv\u00e9e."
+      ],
+      "Refresh": [
+        "Actualiser"
+      ],
+      "Replace": [
+        "Remplacer"
+      ],
+      "Replace %2 matche(s) accross %1 file with %3? This cannot be undone.": [
+        "Replace %2 matches accross %1 files with %3? This cannot be undone.",
+        "Remplacer %2 correspondance(s) dans %1 fichier par %3? Cette action est irr\u00e9versible.",
+        "Remplacer %2 correspondances dans %1 fichiers par %3? Cette action est irr\u00e9versible."
+      ],
+      "Replace All": [
+        "Tout Remplacer"
+      ],
+      "Replace All in File": [
+        "Tout Remplacer dans le Fichier"
+      ],
+      "Search": [
+        "Rechercher"
+      ],
+      "Search Files for Text": [
+        "Rechercher des fichiers pour le texte"
+      ],
+      "Search and Replace": [
+        "Rechercher et Remplacer"
+      ],
+      "Skip confirmation next time.": [
+        "Ne plus demander de confirmation."
+      ],
+      "Toggle Replace": [
+        "Montrer/Cacher le remplacement"
+      ],
+      "Toggle Search Filters": [
+        "Montrer/Cacher les filtres"
+      ],
+      "Use Regular Expression": [
+        "Utiliser une expression r\u00e9guli\u00e8re"
+      ],
+      "You have unsaved changes. The result(s) may be inexact. Save your work and refresh.": [
+        "Vous avez des modifications non enregistr\u00e9es. Le ou les r\u00e9sultats peuvent \u00eatre inexacts. Enregistrez votre travail et rafra\u00eechissez."
+      ],
+      "e.g. *.py, src/**/exclude": [
+        "p. ex. *.py, src/**/exclure"
+      ],
+      "e.g. *.py, src/**/include": [
+        "p. ex. *.py, src/**/inclure"
+      ],
+      "schema\u0004Search across Files": [
+        "Rechercher dans les fichiers"
+      ],
+      "schema\u0004Search and Replace across Files Settings": [
+        "Param\u00e8tres pour Rechercher et Remplacer dans les Fichiers"
+      ],
+      "settings\u0004Ask confirmation before replacing all": [
+        "Demander confirmation avant de tout remplacer"
+      ],
+      "settings\u0004Configure glob patterns for excluding files and folders in full text searches.": [
+        "Configurez les r\u00e8gles d'exclusion de fichiers et de dossiers dans les recherches ."
+      ],
+      "settings\u0004Exclude": [
+        "Exclus"
+      ],
+      "settings\u0004Maximal lines count per file": [
+        "Nombre maximum de lignes par fichier"
+      ],
+      "settings\u0004Maximal number of matching lines per file to report. The total number of matches per file can be greater if there are multiple matches per line.": [
+        "Nombre maximal de lignes contentant des correspondances par fichier \u00e0 signaler. Le nombre total de correspondances par fichier peut \u00eatre sup\u00e9rieur \u00e0 cette limite s'il y a plusieurs correspondances par ligne."
+      ],
+      "settings\u0004Whether to display a confirmation dialog before replacing all matches or not.": [
+        "Demander une confirmation avant de remplacer toutes les correspondances ou non."
       ]
     },
     "jupyterlab_spreadsheet_editor": {
@@ -4868,11 +5523,17 @@
       "Dismiss": [
         "Ignorer"
       ],
+      "File Browser Section": [
+        "Section du navigateur de fichiers"
+      ],
       "Files": [
         "Fichiers"
       ],
       "Help": [
         "Aide"
+      ],
+      "Interface": [
+        "Interface"
       ],
       "Keyboard Shortcuts": [
         "Raccourcis clavier"
@@ -4907,6 +5568,9 @@
       "RETROLAB ON GITHUB": [
         "PROJET RETROLAB GITHUB"
       ],
+      "Rename\u2026": [
+        "Renommer \u2026"
+      ],
       "Running": [
         "Actifs"
       ],
@@ -4922,17 +5586,44 @@
       "Version: %1": [
         "Version : %1"
       ],
+      "menu\u0004Cell Type": [
+        "Type de cellule"
+      ],
+      "schema\u0004Interface Switcher": [
+        "S\u00e9lecteur d'interface"
+      ],
+      "schema\u0004Interface Switcher settings.": [
+        "Param\u00e8tres du s\u00e9lecteur d'interface."
+      ],
+      "schema\u0004RetroLab Menu Entries": [
+        "Entr\u00e9es du menu RetroLab"
+      ],
+      "schema\u0004RetroLab Notebook": [
+        "Notebook Retrolab"
+      ],
+      "schema\u0004RetroLab Notebook settings": [
+        "Param\u00e8tres de Notebook RetroLab"
+      ],
       "schema\u0004RetroLab Top Area": [
         "Barre sup\u00e9rieure de RetroLab"
       ],
       "schema\u0004RetroLab Top Area settings": [
         "Param\u00e8tres de la barre sup\u00e9rieure de RetroLab"
       ],
+      "settings\u0004Auto Scroll Outputs": [
+        "D\u00e9filement automatique des sorties de cellules"
+      ],
+      "settings\u0004RetroLab Notebook": [
+        "Notebook Retrolab"
+      ],
       "settings\u0004RetroLab Top Area": [
         "Zone sup\u00e9rieure de RetroLab"
       ],
       "settings\u0004Top Bar Visibility": [
         "Visibilit\u00e9 de la barre sup\u00e9rieure"
+      ],
+      "settings\u0004Whether to auto scroll the output area when the outputs become too long": [
+        "Activer le d\u00e9filement automatique de la zone de sortie quand les sorties deviennent trop longues"
       ],
       "settings\u0004Whether to show the top bar or not": [
         "Afficher/Masquer la zone sup\u00e9rieure"
